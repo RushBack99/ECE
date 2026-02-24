@@ -134,7 +134,30 @@ $$ (f^{-1}(y_0))' = \frac{1}{f'(x_0)} = \frac{1}{f'(f^{-1}(y_0))} $$
 \end{tabular}
 
 %----------------------------------------------------------------------------------------------
-%-----------------------------     1.6 Approximationsfehler    --------------------------------
+%-----------------     1.6 Lineare Approximation / Differenzial diff y    --------------------
+%----------------------------------------------------------------------------------------------
+\subsection[Lineare Approximation / Differenzial diff y]{Lineare Approximation / Differenzial $\diff y$}{459}
+
+Differenzial $= \diff y = \diff f =$ "Höhenunterschied der Tangente" $=$ "Linearzuwachs"
+
+\textcolor{blue}{Differenzial: $\diff y = f'(x_0) \cdot \diff x$} $= f'(x_0) \cdot h = f'(x_0) \cdot \Delta x = f'(x_0) \cdot (x- x_0) $
+\begin{center}
+    \includegraphics[width=0.58\columnwidth]{images/differenzial.PNG}
+\end{center}
+
+\begin{minipage}[c]{0.48\columnwidth}
+    $\Delta y \approx \diff y$ \textrightarrow\ Approximation / Fehler
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.48\columnwidth}
+    Fehler: \quad $\Delta y - \diff y \rightarrow 0$ \quad $h \rightarrow 0$
+\end{minipage}
+
+\vspace{0.2cm}
+\textbf{Die Tangente ist die beste lineare Approximation!}	
+
+%----------------------------------------------------------------------------------------------
+%-----------------------------     1.7 Approximationsfehler    --------------------------------
 %----------------------------------------------------------------------------------------------
 \subsection{Approximationsfehler}
 
@@ -161,31 +184,31 @@ Die Fehler beziehen sich auf den Arbeitspunkt (z.B. $x_0$)
     $ R_1(x)$ &$=$& $\abs{\Delta y - dy}$ &$=$& $\abs{0.024845 - 0.025}$ &$=$& $0.0000155$\\
     $ f(x)$ &$=$& $f(4+0.1)$ &$=$& $\sqrt{4.1}$ &$=$& $2.024845$\\
     $ \hat f(x)$ &$=$& $f(4)+ f'(4)(0.1)$ &$=$& $\sqrt{4} + \frac{1}{2\cdot \sqrt{4}} \cdot 0.1$ &$=$& $2.025 $ \\
-    $ R_2(x)$ &$=$& $\abs{\Delta y - dy}$ &$=$& $\abs{2.024845 - 2.025}$ &$=$& $0.0000155$\\
+    $ R_2(x)$ &$=$& $f(x)-\hat f(x)$ &$=$& $\abs{2.024845 - 2.025}$ &$=$& $0.0000155$\\
     \hline
               &   & $ R_1(x)$ &$=$& $ R_2(x)$ &$=$& $\fbox{0.0000155}$
 \end{tabular}
 
 %----------------------------------------------------------------------------------------------
-%------------------------------     1.7 Fehlerfortpflanzung    --------------------------------
+%------------------------------     1.8 Fehlerfortpflanzung    --------------------------------
 %----------------------------------------------------------------------------------------------
 \subsection{Fehlerfortpflanzung}{866}
 
 \renewcommand{\arraystretch}{2}
 \begin{tabular}{llll}
     Absolut: & $\cbl{\Delta x \rightarrow \Delta y}$                & & 
-               $\cgn{\Delta y \approx dy = f'(x_0) \cdot \diff x}$                                              \\
+               $\cgn{\Delta y \approx dy = f'(x_0) \cdot \Delta x}$                                              \\
     Relativ: & $\cor{\Delta x \rightarrow \frac{\Delta y}{y_0}}$    & &  
-               $\cvt{\frac{\Delta y}{y_0} \approx \frac{\diff y}{y_0} = \frac{f'(x_0) \cdot \diff x}{f(x_0)}}$ 
+               $\cvt{\frac{\Delta y}{y_0} \approx \frac{\diff y}{y_0} = \frac{f'(x_0) \cdot \Delta x}{f(x_0)}}$ 
 \end{tabular}
 \renewcommand{\arraystretch}{1}
 
-\begin{minipage}[c]{0.65\columnwidth}
+\begin{minipage}[c]{0.5\columnwidth}
 
-    \renewcommand{\arraystretch}{1.5}
+    \renewcommand{\arraystretch}{2}
     \begin{tabular}{|@{}| c | c | c |@{}}
     \hline
-                                                            & $\Delta x = \diff x$ (abs)    & $\frac{\Delta x}{x} = \frac{\diff x}{x}$ (rel)    \\
+                                                            & $\Delta x $ (abs)    & $\frac{\Delta x}{x}$ (rel)    \\
     \hline
     $\Delta y \approx \diff y$ (abs)                        & \cbl{A}                       & \cgn{B}                                           \\
     \hline
@@ -195,8 +218,9 @@ Die Fehler beziehen sich auf den Arbeitspunkt (z.B. $x_0$)
     \renewcommand{\arraystretch}{1}				
 \end{minipage}
 \hfill
-\begin{minipage}[c]{0.34\columnwidth}
+\begin{minipage}[c]{0.45\columnwidth}
     \raggedright
-    $\Rightarrow$ Tabelle ist bidirektional
+    $\Rightarrow$ Tabelle ist bidirektional\\
     $\Rightarrow$ (Umkehrfunktionen)
 \end{minipage}
+\pagebreak
