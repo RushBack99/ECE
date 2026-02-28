@@ -2,5 +2,5 @@
 
 Click the link below to open the PDF direcly:
 
-Analysis:   -[An1a](./semester1/An1a/main.pdf)
-            -[An1b](./semester1/An1b/main.pdf)
+Analysis:   [An1a](./semester1/An1a/main.pdf)  
+            [An1b](./semester1/An1b/main.pdf)
