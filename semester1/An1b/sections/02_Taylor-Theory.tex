@@ -15,8 +15,8 @@
 
 \renewcommand{\arraystretch}{2.3}
 \begin{tabular}{l}
-    $p_n(x) = f(x_0) + \overbrace{f'(x_0)\cdot h}^{\text{1. Ordnung}} + \overbrace{\frac{f''(x_0)}{2!} \cdot h^2}^{\text{2. Ordnung}} + ... + \overbrace{\frac{f^{(n)}(x_0)}{n!} \cdot h^n}^{n. \text{ Ordnung}}$  \\ 
-    $p_n(x) = \sum\limits_{k=0}^{n} \frac{f^{(k)}(x_0)}{k!} \cdot h^k \; \Big|_{h = x-x_0}$ 
+    $T_n(x) = f(x_0) + \overbrace{f'(x_0)\cdot h}^{\text{1. Ordnung}} + \overbrace{\frac{f''(x_0)}{2!} \cdot h^2}^{\text{2. Ordnung}} + ... + \overbrace{\frac{f^{(n)}(x_0)}{n!} \cdot h^n}^{n. \text{ Ordnung}}$  \\ 
+    $T_n(x) = \sum\limits_{k=0}^{n} \frac{f^{(k)}(x_0)}{k!} \cdot h^k \; \Big|_{h = x-x_0}$ 
 \end{tabular}
 \renewcommand{\arraystretch}{1}
 
@@ -32,10 +32,15 @@ Der Fehler ist nicht klar berechenbar, sondern nur auf einem Intervall "bestimmb
 \textrightarrow\ Worst Case!	
 
 Voraussetzung: $f$ auf Intervall [$a;b$] mind. $(n+1)$ mal ableitbar
-\vspace{0.2cm}
+\vspace{0.01em}
 
-\begin{tabular}{ll}
-    \textbf{Lagrange:}  &  $\vert R_n \vert = \Big| \frac{f^{(n+1)}(\xi)}{(n+1)!} \cdot h^{n+1} \Big| $ \\
+\[
+    f(x)   =   T_n(x) + R_n(x)
+\]
+\vspace{0.01em}
+
+\begin{tabular}{lll}
+    \textbf{Lagrange:}  &  $\vert R_n \vert = \Big| \frac{f^{(n+1)}(\xi)}{(n+1)!} \cdot h^{n+1} \Big| \le \Big| \frac{Mx^{n+1}}{(n+1)!} \Big|$ \\
     \\
     \textbf{Cauchy:}    & $\vert R_n \vert = \Big| \frac{f^{(n+1)} (\xi)}{n!}  \cdot h^{n+1} \cdot (1 - \theta)^n \Big|$ \\
     \\
@@ -70,4 +75,34 @@ Voraussetzung: $f$ auf Intervall [$a;b$] mind. $(n+1)$ mal ableitbar
     \end{tikzpicture}
 \end{center}
 
+\subsubsection{Verhalten von $R_n$}	
 
+\begin{tabular}{llll}
+1) & $n \to \infty$     & "Normal" \quad $R_n \to 0$                    & $\vert h \vert$ fix  \\
+2) & $n \to 0^+$        & "Normal" \quad $R_n \to 0$                    & $n$ fix \\
+     &                  &  $\vert f^{n+1}(\tilde{x})\vert < K^{n+1}$    & $(K < 0, n \in \mathbb{N}_0), \tilde{x} \in (a;b)$
+\end{tabular}
+\vspace{0.3em}
+
+\subsubsection*{Bsp: Lagrange prüfung 2026}
+
+Die „Faustregel“ $\sin(x) \approx x$  für kleine $x$“ entspricht einer Taylor-Approximation der Sinus-Funktion bei $x_0 = 0$.\\
+\vspace{0.2em}
+\begin{tabular}{ll}
+    a)  &   Welche Approximationsordnung liegt vor?\\
+    b)  &   Schätzen Sie den absoluten Approximationsfehler mit Hilfe der Formel von \\
+        &   Lagrange für $\abs{x} \le 0.5$ durch einen Term in x und auch durch eine passende \\
+        &   Zahl ab.\\
+\end{tabular}
+
+\renewcommand{\arraystretch}{2}
+\begin{tabular}{ll}
+    a) & $\sin x \approx x \quad \Longrightarrow \quad$ 1.Ordnung\\
+
+\end{tabular}
+
+\begin{tabular}{llcl}
+    b) & $R_n(x_0) = \frac{f^{n+1}(\xi) \cdot \Delta x}{(n+1)!} \le \frac{Mx^{n+1}}{(n+1)!}$ & $\Rightarrow$& $R_1(x_0) = \frac{f^{1+1}(\xi) \cdot \Delta x}{(1+1)!} \le \frac{Mx_0^{1+1}}{(1+1)!}$ \\
+       & $ M = \max(\sin(x)) = 1$   &   ;   &     $ m = \min(\sin(x)) = -1$\\
+       & $R_1(x_0) \le \frac{Mx_0^{2}}{(2)!}$ & $\Rightarrow$ & $R_1\left(\frac{1}{2}\right) \le \frac{1 \cdot \left(\frac{1}{2}\right)^{2}}{(2)!} = \frac{1}{4} \cdot \frac{1}{2} = \frac{1}{8}$
+\end{tabular}

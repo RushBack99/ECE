@@ -1,9 +1,9 @@
-PWD /mnt/c/Users/magae_ty0qkbb/spick/semester1/An1b
+PWD /mnt/c/Users/magae_ty0qkbb/ECE/semester1/An1b
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /mnt/c/Users/magae_ty0qkbb/spick/semester1/An1b/main.tex
+INPUT /mnt/c/Users/magae_ty0qkbb/ECE/semester1/An1b/main.tex
 OUTPUT main.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/extsizes/extarticle.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/extsizes/extarticle.cls
