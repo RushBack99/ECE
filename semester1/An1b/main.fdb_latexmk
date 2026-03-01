@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1772361824.2098 "/mnt/c/Users/magae_ty0qkbb/ECE/semester1/An1b/main.tex" "main.pdf" "main" 1772361828.2012 0
+["pdflatex"] 1772377321.80471 "/mnt/c/Users/magae_ty0qkbb/ECE/semester1/An1b/main.tex" "main.pdf" "main" 1772377326.22304 0
   "/etc/texmf/web2c/texmf.cnf" 1769431356.78123 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/mnt/c/Users/magae_ty0qkbb/ECE/semester1/An1b/main.tex" 1771439054.12321 1839 e4ecdc26cd98943110be8681e09974e2 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -317,13 +317,15 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1769431462 8213560 470246e8ffeab2dcb300da8f83a94e8e ""
   "images/differenzial.PNG" 1771949799.66274 110400 1041e9d342d78a19434e76b5d91cd8c3 ""
   "images/konvergenz-divergenz.PNG" 1771439054.02308 290230 cbf340da092bcc08822c3b3b079d7d1c ""
-  "main.aux" 1772361827.77773 5391 84e8a9686ffb06fa8c310b865c2562e0 "pdflatex"
-  "main.out" 1772361827.79076 2542 171a3f57feddfc0997427e58d797d7bb "pdflatex"
+  "images/mittelwertsatz.PNG" 1772376650.94651 150028 1c9aff19b96aca1c56dcad18aebb8ddb ""
+  "images/rolle.PNG" 1772375895.40185 118728 e0353f59b2d57088803b5c5a71be2e88 ""
+  "main.aux" 1772377325.97594 6586 845b4bb937c23fea0a5a305cc48280c2 "pdflatex"
+  "main.out" 1772377325.98199 3046 a63c15dc7ef197e290c61be58b953ce5 "pdflatex"
   "main.tex" 1771439054.12321 1839 e4ecdc26cd98943110be8681e09974e2 ""
   "preamble.tex" 1771439054.13904 26033 79baf711962193c9fe9d643bb4e15d73 ""
   "sections/01_differenzialrechnungen.tex" 1771963313.22172 12346 683e8bb5eb676d7460ae8cc9e4f5aa60 ""
   "sections/02_Taylor-Theory.tex" 1772361823.7661 4897 7cea1fc31e1de8084368d037d768c9ad ""
-  "sections/03_Kurvendiskussionen.tex" 1771439054.18904 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "sections/03_Kurvendiskussionen.tex" 1772377317.10317 1852 299e1f530e7b86905324cc25796097cf ""
   "sections/04_Integralrechnen.tex" 1771439054.19512 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "main.aux"

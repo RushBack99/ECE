@@ -664,6 +664,16 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmri.tfm
 INPUT ./sections/03_Kurvendiskussionen.tex
 INPUT ./sections/03_Kurvendiskussionen.tex
 INPUT sections/03_Kurvendiskussionen.tex
+INPUT ./images/rolle.PNG
+INPUT ./images/rolle.PNG
+INPUT ./images/rolle.PNG
+INPUT ./images/rolle.PNG
+INPUT ./images/rolle.PNG
+INPUT ./images/mittelwertsatz.PNG
+INPUT ./images/mittelwertsatz.PNG
+INPUT ./images/mittelwertsatz.PNG
+INPUT ./images/mittelwertsatz.PNG
+INPUT ./images/mittelwertsatz.PNG
 INPUT ./sections/04_Integralrechnen.tex
 INPUT ./sections/04_Integralrechnen.tex
 INPUT sections/04_Integralrechnen.tex
