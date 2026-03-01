@@ -1,4 +1,4 @@
-# Welcome to My Repo
+# Welcome to Electrical and Computer Engineering
 
 Click the link below to open the PDF direcly:
 
