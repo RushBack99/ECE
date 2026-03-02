@@ -3,12 +3,9 @@
 %----------------------------------------------------------------------------------------------
 \section{Kurvendiskussionen}
 
+
 %----------------------------------------------------------------------------------------------
-%------------------------------     3.1 Monotoniebedingungen    -------------------------------
-%----------------------------------------------------------------------------------------------
-\subsection{Monotoniebedingungen}
-%----------------------------------------------------------------------------------------------
-%---------------------------------     3.2 Satz von Rolle    ----------------------------------
+%---------------------------------     3.1 Satz von Rolle    ----------------------------------
 %----------------------------------------------------------------------------------------------
 \subsection{Satz von Rolle}{454}
 
@@ -26,7 +23,7 @@ Auf dem Intervall ($a;b$) existiert \textbf{mindestens einmal} eine horizontale 
 
 
 %----------------------------------------------------------------------------------------------
-%---------------------------------     3.3 Mittelwertsatz    ----------------------------------
+%---------------------------------     3.2 Mittelwertsatz    ----------------------------------
 %----------------------------------------------------------------------------------------------
 \subsection{Mittelwertsatz}{454}
 
@@ -50,3 +47,139 @@ $f'(\xi) = \frac{f(b) - f(a)}{b - a}$
 \end{minipage}			
 
 
+%----------------------------------------------------------------------------------------------
+%------------------------------     3.3 Monotoniebedingungen    -------------------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Monotoniebedingungen}{453}
+
+Ist $ f(x) $ auf einem zusammenhängenden Intervall stetig und im Inneren differenzierbar, so gilt:\\
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{ll}
+    $\Rightarrow f'(x_0) \geq 0$    & für eine monoton wachsende Funktion \\
+    $\Rightarrow f'(x_0) > 0$    & für eine streng monoton wachsende Funktion \\
+    $\Rightarrow f'(x_0) \leq 0$    & für eine monoton fallende Funktion \\
+    $\Rightarrow f'(x_0) < 0$    & für eine streng monoton fallende Funktion 
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------------
+%---------------------------------     3.4 Extremastellen    ----------------------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Extremastellen}{455}
+
+\subsubsection{Relative Extremalstelle}
+
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{llll}
+    Lokales Maximum:    & & &'Berg' (nicht am Rand der Funktion)               \\ 
+                        & & &Wechsel von $\uparrow$ zu $\downarrow$ \\
+    \hline
+    Lokales Minimum:    & & &'Tal' (nicht am Rand der Funktion)                \\
+                        & & & Wechsel von $\downarrow$ zu $\uparrow$ \\
+    \hline
+    Terrasse:           & & &$f'(x_0) = 0$ aber kein 'Berg' / 'Tal' 
+\end{tabular}\\
+
+\renewcommand{\arraystretch}{1}
+\textbf{Extremstellen}\\
+\begin{tabular}{llll}
+    1. &$f'(x)$ bilden \\
+    2. &$f'(x)=0$ lösen & $\quad \quad  \Longrightarrow \quad$ &   $\;\;\,$Kandidaten $x_0$\\
+    3. &$f''(x_0)$ berechnen & $\quad \quad  \Longrightarrow \quad$ &   
+    \begin{tabular}{l}
+        $f''(x_0) > 0 \Rightarrow \text{Minimum}$\\
+        $f''(x_0) < 0 \Rightarrow \text{Maximum}$\\
+        $f''(x_0) = 0 \Rightarrow \text{keine Aussage}$
+    \end{tabular}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------------
+%----------------------------------     3.5 Wendestelle    ------------------------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Wendepunkt(Terrassenpunkte)}{457}
+
+Wendepunkt = Krümmungswechsel = Vorzeichenwechsel für $f''(x)$ bei $x_0$ 
+\vspace{0.2cm}
+
+\textbf{Extremstellen}\\
+\begin{tabular}{llll}
+    1. &$f''(x)$ bilden \\
+    2. &$f''(x)=0$ lösen & $\quad \quad  \Longrightarrow \quad$ &   $\;\;\,$Kandidaten $x_0$\\
+    3. &$f'''(x_0)$ berechnen & $\quad \quad  \Longrightarrow \quad$ &   
+    \begin{tabular}{l}
+        $f'''(x_0) > 0 \Rightarrow$ Wechsel von $\uparrow$ zu $\downarrow \quad$  \textbackslash \\
+        $f'''(x_0) < 0 \Rightarrow$ Wechsel von $\downarrow$ zu $\uparrow\quad$ / \\
+        $f'''(x_0) = 0 \Rightarrow \text{keine Aussage}$
+    \end{tabular}
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------------
+%----------------------------------     3.6 bsp    ------------------------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Bsp: Extrema und Wendepunkt}
+
+Gegeben ist die Funktion\\
+\[f(x) = x^3-4x^2+3x+1\]
+Untersuchen Sie die Funktion vollständig hinsichtlich ihrer besonderen Punkte.\\
+\begin{tabular}{ll}
+    1. & Bestimmen Sie die Extremstellen und geben Sie an, ob es sich um ein \\
+       & Maximum oder Minimum handelt.\\
+    2. & Bestimmen Sie die Wendestelle(n) der Funktion.
+\end{tabular}
+
+\vspace{0.3cm}
+\renewcommand{\arraystretch}{2}
+\begin{tabular}{lllll}
+    $f(x) = x^3-4x^2+3x+1$ & $\Rightarrow$ & $f'(x) = 3x^2-8x+3$ & $\Rightarrow$ & $f''(x) = 6x-8$
+\end{tabular} 
+\begin{tabular}{lllll}
+    $\Rightarrow$ & $f'''(x) = 6$
+\end{tabular} 
+\vspace{2.5mm}
+\hrule
+\vspace{2mm}
+
+\begin{tabular}{lllll}
+    $f'(x) = 0$ &  $\Rightarrow$ & $3x^2-8x+3 = 0$ & $\Rightarrow$ & 
+    \begin{tabular}{lll}
+        $\frac{8+\sqrt{28}}{6}$ & $\Rightarrow$ & $x_1 = \frac{4+\sqrt{7}}{3}$\\
+        $\frac{8-\sqrt{28}}{6}$ & $\Rightarrow$ & $x_2 = \frac{4-\sqrt{7}}{3}$
+    \end{tabular} 
+\end{tabular} 
+
+\begin{tabular}{lllllll}
+    $f''(x_1) = 6x_1-8$ &  $\Rightarrow$ & $6 \cdot \frac{4+\sqrt{7}}{3}-8$ &  $\Rightarrow$ & $2\sqrt{7} > 0$ & $\Rightarrow$ & $x_1 = x_{min}$ \\
+    $f''(x_2) = 6x_2-8$ &  $\Rightarrow$ & $6 \cdot \frac{4-\sqrt{7}}{3}-8$ &  $\Rightarrow$ & $-2\sqrt{7} < 0$ & $\Rightarrow$ & $x_2 = x_{max}$ 
+\end{tabular}
+\vspace{2.5mm}
+\hrule
+\vspace{2mm}
+
+\begin{tabular}{lllllll}
+    $f''(x) = 0$   &  $\Rightarrow$ & $6x-8 = 0$ &  $\Rightarrow$ & $x_0 = \frac{4}{3} \Rightarrow$ Wendepunkt  \\
+    $f'''(x) = 6$  &  $\Rightarrow$ & $6 > 0$ &  $\Rightarrow$ &  von $x_{max}$ zu $x_{min}$
+\end{tabular} 
+
+
+
+%----------------------------------------------------------------------------------------------
+%-------------------------------     3.7 Bernoulli-Hôpital    ---------------------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Bernoulli-Hôpital}{57-58}
+
+\subsubsection{B.H. I}
+
+$$ \lim_{x \to x_0} \frac{f_1(x)}{f_2(x)} = \frac{0}{0} $$
+Wenn $\frac{f'_1(x)}{f'_2(x)}$ eine bestimmte Form ist, dann ist dies das Resultat von 
+$\lim \limits_{x \to x_0} \frac{f_1(x)}{f_2(x)}$
+
+
+\subsubsection{B.H. II}	
+$$ \lim_{x \to x_0} \frac{f_1(x)}{f_2(x)} = \frac{\infty}{\infty}$$
+Wenn $\frac{f'_1(x)}{f'_2(x)}$ eine bestimmte Form ist, dann ist dies das Resultat von 
+$\lim \limits_{x \to x_0} \frac{f_1(x)}{f_2(x)}$
+
+\vspace{0.5cm}
+\textbf{Bernoulli-Hôpital darf auch mehrfach nacheinander verwendet werden}
+\textbf{\textrightarrow\ immer erst algebraisch verienfachen!} 
