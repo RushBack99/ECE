@@ -674,13 +674,13 @@ INPUT ./images/mittelwertsatz.PNG
 INPUT ./images/mittelwertsatz.PNG
 INPUT ./images/mittelwertsatz.PNG
 INPUT ./images/mittelwertsatz.PNG
-INPUT ./sections/04_Integralrechnen.tex
-INPUT ./sections/04_Integralrechnen.tex
-INPUT sections/04_Integralrechnen.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/t1xr.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txmi.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxmi.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmri.tfm
+INPUT ./sections/04_Integralrechnen.tex
+INPUT ./sections/04_Integralrechnen.tex
+INPUT sections/04_Integralrechnen.tex
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out

@@ -43,7 +43,8 @@ $m_s = \frac{\Delta y}{\Delta x} = \frac{f(b) - f(a)}{b - a}$
 
 \textbf{Tangentensteigung /} \\
 \textbf{Durchschnittssteigung:}\\
-$f'(\xi) = \frac{f(b) - f(a)}{b - a}$	
+$f'(\xi) = \frac{f(b) - f(a)}{b - a} \Rightarrow t_\xi \parallel s$\\
+	
 \end{minipage}			
 
 
@@ -183,3 +184,38 @@ $\lim \limits_{x \to x_0} \frac{f_1(x)}{f_2(x)}$
 \vspace{0.5cm}
 \textbf{Bernoulli-Hôpital darf auch mehrfach nacheinander verwendet werden}
 \textbf{\textrightarrow\ immer erst algebraisch verienfachen!} 
+
+
+%----------------------------------------------------------------------------------------------
+%--------------------------------     3.8 Bernoulli-Formen    ---------------------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Unbestimmte Formen zu Bernoulli-Formen}		
+
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{ll}
+    $f \cdot g$ vom Typ $(0^+) \cdot \infty$        & $\frac{f}{1 / g}$ von Typ $\frac{0}{0}$ \\
+                                                    & $\frac{1 / f}{g}$ von Typ $\frac{\infty}{\infty}$ \\
+    \\
+    $f - g$ von Typ $\infty - \infty$               & $\frac{1/g - 1/f}{1/ fg}$ von Typ $\frac{0}{0}$   \\
+    \\
+    $f^g$ als $(0+)^0$; $\infty^0$; $1^{\infty}$    & $f^g = e^{g \cdot \ln(f)}$ wobei $g \cdot \ln(f)$ von Typ \\
+                                                    & $(0+) \cdot \infty$ bzw. $ \infty \cdot 0$ \\
+    \\
+    Vorzeichen ausklammern:                         & $(0-) \cdot \infty = -(0+) \cdot \infty$ \\
+                                                    & $(0+)^{0-} = \frac{1}{(0+)^{0+}}$ oder $1^{-\infty} = \frac{1}{1^{\infty}}$
+\end{tabular}
+
+%----------------------------------------------------------------------------------------------
+%-------------------------------     3.9 Asymptote bestimmen    -------------------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Asymptote bestimmen}
+
+$$ \text{Asymptotengerade:} \quad y = mx + q    \qquad m \text{ und } q \text{ sind gesucht} $$
+
+\renewcommand{\arraystretch}{1.8}
+\begin{tabular}{ll}
+    Steigung:           & $m = \lim \limits_{x \to \infty} \frac{f(x)}{x}$ \\
+    Achsenabschnitt:    & $q = \lim \limits_{x \to \infty} (f(x) - mx)$  \quad \textrightarrow\ berechnetes $m$ einsetzen!
+\end{tabular}
+\renewcommand{\arraystretch}{1}
+
