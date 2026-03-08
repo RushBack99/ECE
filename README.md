@@ -18,7 +18,7 @@ Elektrotechnik 2: Feld Theorie &nbsp;&nbsp;&nbsp;&nbsp; [ELT2](./semester2)
 Programmieren in C++ &nbsp; [ProgC++](./semester) 
 
 
-## Hinweise zur Zusammenfassung
+## Hinweise zum Ausdrucken der Zusammenfassung
 
 - Landscape Drücken [Print](Landscape.md)
 - Booklet Drücken [Print](Booklet.md)
