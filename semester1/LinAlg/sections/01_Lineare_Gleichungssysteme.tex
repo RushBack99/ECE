@@ -2,3 +2,219 @@
 %------------------------------     1. Lin Gleichungssysteme    -------------------------------
 %----------------------------------------------------------------------------------------------
 \section{Lineare Gleichungssysteme}
+
+
+%----------------------------------------------------------------------------------------------
+%------------------------------     1.1 Matritzen und Vektoren    -----------------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Matritzen und Vektoren}
+\begin{tabular}{ll ll}
+	
+	Matrix: &  
+		$A = 
+		\begin{pmatrix}
+			a_{11}&a_{12}&a_{13}\\
+			a_{21}&a_{22}&a_{23}\\
+			a_{31}&a_{32}&a_{33}
+		\end{pmatrix}$ 
+		& 
+	Einheitsmatrix: &
+	 $I = E = 
+		\begin{pmatrix}
+			1&0&0\\
+			0&1&0\\
+			0&0&1
+		\end{pmatrix}$ 
+	\\
+	Zeilenvektor: &
+	$a = 
+	\begin{pmatrix}
+		a_1&a_2&a_n
+	\end{pmatrix}$ 
+	& 
+	Spaltenvektor:&
+	$Ax = b = 
+	\begin{pmatrix} 
+		b_1\\b_2\\b_3 
+	\end{pmatrix}$ 
+\end{tabular}
+
+\begin{tabular}{l lll}
+	Standardbasisvektoren: &
+	$ e_1= e_x =
+	\begin{pmatrix}	
+		1\\0\\0
+	\end{pmatrix},$ &
+	$ e_2= e_y =
+	\begin{pmatrix}
+		0\\1\\0
+	\end{pmatrix},$ &
+	$ e_3= e_z =
+	\begin{pmatrix}
+		0\\0\\1
+	\end{pmatrix}$
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------------
+%---------------------     1.2 Rechenregeln mit Matritzen und Vektoren    ---------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Rechenregeln mit Matritzen und Vektoren}
+
+\subsubsection{Addition / Subtraktion}
+
+\begin{tabular}{ll}
+	Beschreibung für Spaltenvektoren 	& \textrightarrow\ gilt analog für Zeilenvektoren!	\\
+	Beschreibung nur für Addition 		& \textrightarrow\ gilt analog für Subtraktion!
+\end{tabular}
+
+\vspace{0.2cm}
+
+\begin{tabular}{lll}
+	$a = 
+	\begin{pmatrix} 
+		1\\2\\3 
+	\end{pmatrix}$ & 
+	$b = 
+	\begin{pmatrix} 
+		4\\5\\6
+	\end{pmatrix}$ &
+	$a+b = 
+	\begin{pmatrix} 
+		1+4\\2+5\\3+6 
+	\end{pmatrix}$ 
+	\\
+	\\
+	$A=
+	\begin{pmatrix}
+		1&2\\
+		3&4\\
+		5&6
+	\end{pmatrix}$ &
+	$ B=
+	\begin{pmatrix}
+		0&7\\
+		5&3\\
+		6&2
+	\end{pmatrix}$ &
+	$A+B=
+	\begin{pmatrix}
+		1+0&2+7\\
+		3+5&4+3\\
+		5+6&6+2
+	\end{pmatrix}$
+\end{tabular}
+
+
+		    
+\subsubsection{Multiplikation}
+
+%Vektor mal Faktor
+\begin{tabular}{ll}
+	$v = 
+	\begin{pmatrix}
+		1\\8\\4 
+	\end{pmatrix}$ &
+	$\lambda \cdot v = 
+	\begin{pmatrix} 
+		\lambda \cdot 1\\
+		\lambda \cdot 8\\
+		\lambda \cdot 4
+	\end{pmatrix}$ 
+\end{tabular}
+
+\vspace{0.2cm}
+
+%Matrix mal Faktor 
+\begin{tabular}{ll}
+	$D =
+	\begin{pmatrix}
+		6&1&2\\
+		5&4&0\\
+		4&1&9
+	\end{pmatrix}$ &
+	$\lambda \cdot D =
+	\begin{pmatrix}
+		\lambda \cdot 6 & \lambda \cdot 1 & \lambda \cdot 2 \\
+		\lambda \cdot 5 & \lambda \cdot 4 & \lambda \cdot 0 \\
+		\lambda \cdot 4 & \lambda \cdot 1 & \lambda \cdot 9
+	\end{pmatrix}$ 
+\end{tabular}
+
+\vspace{0.2cm}	
+
+% Matrix mal Vektor			
+$D \cdot v = 
+	\begin{pmatrix}
+		\color{red}6&\color{red}1&\color{red}2\\
+		5&4&0\\
+		4&1&9
+	\end{pmatrix}
+	\begin{pmatrix}
+		\color{blue}1\\
+		\color{blue}8\\
+		\color{blue}4
+	\end{pmatrix}
+	=
+	\begin{pmatrix}
+		{\color{red}6}\cdot{\color{blue}1}+
+		{\color{red}1}\cdot{\color{blue}8}+
+		{\color{red}2}\cdot{\color{blue}4}
+		\\
+		5\cdot{\color{blue}1}+
+		4\cdot{\color{blue}8}+
+		0\cdot{\color{blue}4}
+		\\
+		4\cdot{\color{blue}1}+
+		1\cdot{\color{blue}8}+
+		9\cdot{\color{blue}4}
+	\end{pmatrix}
+	=
+	\begin{pmatrix}
+		22\\37\\48
+	\end{pmatrix}$ 
+
+	\vspace{0.2cm}
+
+% Matrix mal Matrix
+\begin{tabular}{ll}
+	$A =
+	\begin{pmatrix}
+		\color{red}1&\color{red}2&\color{red}4\\
+		0&4&-1
+	\end{pmatrix}$, &
+	$B =
+	\begin{pmatrix}
+		\color{blue}-2&4\\
+		\color{blue}-4&-5\\
+		\color{blue}2&4
+	\end{pmatrix} $
+\end{tabular}
+	
+$A \cdot B =
+	\begin{pmatrix}
+		{\color{red}1}\cdot({\color{blue}-2})+{\color{red}2}\cdot({\color{blue}-4})+{\color{red}4}\cdot{\color{blue}2} &
+		{\color{red}1}\cdot 4+{\color{red}2}\cdot(-5)+{\color{red}4}\cdot 4\\
+		0\cdot ({\color{blue}-2})+4\cdot({\color{blue}-4})+(-1)\cdot {\color{blue}2} &
+		0\cdot 4+4\cdot(-5)+(-1)\cdot 4
+	\end{pmatrix}$
+
+
+\subsubsection{Division}
+			
+Divisionen von Matritzen werden durch eine \textbf{Multiplikation mit der inversen Matrix} durchgeführt.
+
+
+\subsubsection{Zusammenfassung / Erweiterung der Rechenregeln}
+   			
+\begin{tabular}{lll}
+	Symmetrie: 			& $ A = A^t$		 												\\   			
+	Orthagonalität: 	&  $ A A^t = A^t A = I $  			& $A^{-1} = A^t$				\\
+						& $A^t$ auch orthagonal 			& $\det(A) = \pm 1$ 			\\
+	Produkte: 			& \textbf{AB $\neq$ BA} 			& $(AB)C = A(BC)$				\\
+						& $IA = A = AI$  					& $A(B + C) = AB + AC$			\\
+						& $A (\lambda B) = (\lambda A) B$ 							\\
+	Transponiert: 		& $(AB)^t = B^t A^t $ 												\\
+	Inverse: 			& $A^{-1} A = I$ 					& $(AB)^{-1} = B^{-1} A^{-1} $ 	\\
+	Potenzen: 			& $(A^t)^{-1} = (A^{-1})^t $
+\end{tabular}
