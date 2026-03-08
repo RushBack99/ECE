@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1772985483.6544 "/mnt/c/Users/magae_ty0qkbb/ECE/semester1/An1b/main.tex" "main.pdf" "main" 1772985488.42313 0
+["pdflatex"] 1772985745.12301 "/mnt/c/Users/magae_ty0qkbb/ECE/semester1/An1b/main.tex" "main.pdf" "main" 1772985749.66767 0
   "/etc/texmf/web2c/texmf.cnf" 1769431356.78123 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/mnt/c/Users/magae_ty0qkbb/ECE/semester1/An1b/main.tex" 1772984628.02853 1876 e7ab2957a44f74b2cea623a4eeddab7b ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -327,8 +327,8 @@
   "images/rolle.PNG" 1772375895.40185 118728 e0353f59b2d57088803b5c5a71be2e88 ""
   "images/stetigkeit.PNG" 1772984337.16162 616248 293bd749be68b7238b63ad364c6804d2 ""
   "images/untersumme.jpg" 1772900595.37935 31458 091030787428830b2c96acb1021d4fa4 ""
-  "main.aux" 1772985488.05476 17759 faefd42e2bddea99cd6a6bfd90a433a9 "pdflatex"
-  "main.out" 1772985488.06685 7656 a8af296cfac98986c2e8f206f604dd4b "pdflatex"
+  "main.aux" 1772985749.41992 17759 faefd42e2bddea99cd6a6bfd90a433a9 "pdflatex"
+  "main.out" 1772985749.4332 7656 a8af296cfac98986c2e8f206f604dd4b "pdflatex"
   "main.tex" 1772984628.02853 1876 e7ab2957a44f74b2cea623a4eeddab7b ""
   "preamble.tex" 1771439054.13904 26033 79baf711962193c9fe9d643bb4e15d73 ""
   "sections/01_differenzialrechnungen.tex" 1772980911.01412 12346 348fc11ebd1c29573912a1b42d08d81d ""
