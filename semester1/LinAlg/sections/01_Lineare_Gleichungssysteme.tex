@@ -459,26 +459,101 @@ Wenn nur noch 1en auf der Diagonale stehen muss nur doch die blaue Operation dur
 
 
 %----------------------------------------------------------------------------------------------
-%-------------------------------     1.6 Gauss-Algorithmus    ---------------------------------
-%----------------------------------------------------------------------------------------------	
+%---------------------------------     1.7 Lösungsmenge    ------------------------------------
+%----------------------------------------------------------------------------------------------		
 \subsection{Lösungsmenge}
 \label{Lösungsmenge}
-			
 Wenn es unendlich viele Lösungen gibt kann die Lösungsmenge folgendermassen angegeben werden
 
 \textbf{\textrightarrow\ Vorzeichenwechsel bei frei wählbaren Variablen beachten!}
+\vspace{0.2cm}
 
-\begin{minipage}[t]{0.58\columnwidth}
+\hfill
+\begin{minipage}[t]{0.3\columnwidth}
 	\renewcommand{\arraystretch}{1.4}
 	\begin{tabular}[h]{|c c c c| c|}
 		\hline
-		$x$			& $y$		& $z$		& $w$		&		\\
+		$x$			& $y$		& $z$		& $w$		& 	\\
 		\hline
-		$1$ 		& $0$		& $5$ 		& $0$		& $1$	\\
-		$0$			& $1$ 		& $2$ 		& $3$		& $3$	\\
-		$0$			& $0$ 		& $0$ 		& $0$		& $2$	\\
-		$0$			& $0$ 		& $0$ 		& $0$		& $9$	\\
+		$1$			& $0$		& $4$		& $6$		& $1$	\\
+		$0$			& $1$		& $2$		& $2$		& $5$	\\
+		$0$			& $0$		& $0$		& $0$		& $0$	\\
+		$0$			& $0$		& $0$		& $0$		& $0$	\\
 		\hline
 	\end{tabular}
 	\renewcommand{\arraystretch}{1}
 \end{minipage}
+\hfill
+\begin{minipage}[t]{0.65\columnwidth}
+	\renewcommand{\arraystretch}{1.4}
+	\begin{tabular}[h]{l}
+		$\mathbb{L} =
+		\left\{
+		\begin{pmatrix}
+		x\\
+		y\\
+		z\\
+		w
+		\end{pmatrix}
+		\;=\;
+		\begin{pmatrix}
+		1\\
+		5\\
+		0\\
+		0
+		\end{pmatrix} + \crd{z} \cdot
+		\begin{pmatrix}
+		-4\\
+		-2\\
+		\crd{1}\\
+		0
+		\end{pmatrix} + \crd{w} \cdot
+		\begin{pmatrix}
+		-6\\
+		-2\\
+		0\\
+		\crd{1}
+		\end{pmatrix}
+		\;\middle|\; z, w \in \mathbb{R}
+		\right\}$
+	\end{tabular}
+	\renewcommand{\arraystretch}{1}
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------------
+%------------------------------     1.8 Rang einer Matrix    ----------------------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Rang einer Matrix}
+		
+Anzahl linear unabhängiger Zeilen / Spalten entspricht der Anzahl eindeutig bestimmbarer Variablen 
+\begin{center}
+	\includegraphics[width=0.8\columnwidth]{images/loesungsmenge-gauss.PNG}
+\end{center}	
+
+
+%----------------------------------------------------------------------------------------------
+%-------------------------     1.9 Lineares Gleichungssystem    -------------------------------
+%----------------------------------------------------------------------------------------------
+\subsection[Lineares Gleichungssystem]{Lineares Gleichungssystem $A \cdot x = b$}	
+
+Ein lineares Gleichungssystem entstspricht dem Produkt aus Matrix mal Vektor.
+
+\begin{tabular}{l l l l l l l l}
+	Gleichungsystem:\\
+	& $a_{11} \cdot x_1$ & $+$ & $a_{12} \cdot x_2$ & $+$ & $a_{13} \cdot x_3$ & $=$ & $b_1$\\
+	& $a_{21} \cdot x_1$ & $+$ & $a_{22} \cdot x_2$ & $+$ & $a_{23} \cdot x_3$ & $=$ & $b_2$\\
+	& $a_{31} \cdot x_1$ & $+$ & $a_{32} \cdot x_2$ & $+$ & $a_{33} \cdot x_3$ & $=$ & $b_3$\\
+\end{tabular}
+
+Dieses Gleichungssystem bestitz die Lösung
+$$x = A^{-1} \cdot b$$
+				
+		
+\subsection{Homogene / Inhomogene LGS}
+		
+\begin{tabular}{ll}
+	Inhomogen: 	& $Ax = b$ \\
+	Homogen: 	& $Ax = 0$ 
+\end{tabular}
+
