@@ -527,9 +527,71 @@ Wenn es unendlich viele Lösungen gibt kann die Lösungsmenge folgendermassen an
 \subsection{Rang einer Matrix}
 		
 Anzahl linear unabhängiger Zeilen / Spalten entspricht der Anzahl eindeutig bestimmbarer Variablen 
-\begin{center}
-	\includegraphics[width=0.8\columnwidth]{images/loesungsmenge-gauss.PNG}
-\end{center}	
+
+\renewcommand{\arraystretch}{1.3}
+\[
+\begin{tikzpicture}
+\node (m) {
+$
+	\begin{tabular}[h]{| c | c | c |}
+		\hline
+		$1 \quad \cdots \quad 0$			& $\cdgn{* \quad \cdots \quad *}$			& $*$			\\
+		$\vdots \quad \ddots \quad \vdots$	& $\cdgn{\vdots \quad \ddots \quad \vdots}$	& $\vdots$		\\
+		$0 \quad \cdots \quad 1$			& $\cdgn{* \quad \cdots \quad *}$			& $*$			\\
+		\hline
+		$0 \quad \cdots \quad 0$			& $0 \quad \cdots \quad 0$					& $\crd{*}$			\\
+		$\vdots \quad \ddots \quad \vdots$	& $\vdots \quad \ddots \quad \vdots$		& $\crd{\vdots}$		\\
+		$0 \quad \cdots \quad 0$			& $0 \quad \cdots \quad 0$					& $\crd{*}$			\\
+		\hline
+	\end{tabular}
+	$
+};
+
+\renewcommand{\arraystretch}{1}
+% top braces
+\draw[decorate,decoration={brace,amplitude=3pt}]
+($(m.north west)+(0.1,0)$) -- ($(m.north)+( -0.285,0)$)
+node[midway,above=2pt]{Rang $A$};
+
+\cdgn{\draw[decorate,decoration={brace,amplitude=3pt}]
+($(m.north)+(-0.275,0)$) -- ($(m.north east)+(-0.7,0)$)
+node[midway,above=2pt]{
+	\begin{tabular}{c}
+		frei wählbare\\
+		Variablen
+	\end{tabular}};}
+
+
+% bottom label
+\draw[decorate,decoration={brace,amplitude=3pt}]
+  	($(m.north east)+(-0.7,-3.3)$) -- ($(m.north west)+(0.1,-3.3)$) 
+  	node[midway,below=4pt] {$n$ Unbekannte};
+
+% left label
+\draw[decorate,decoration={brace,amplitude=3pt}]
+  	($(m.south west)+(0,0.12)$) -- ($(m.north west)+(0,-0.13)$)
+  	node[midway, xshift=-8pt, rotate=90] {$m$ Gleichungen};
+
+% right label
+\draw[decorate,decoration={brace,amplitude=3pt}]
+  	($(m.north east)+(0,-0.13)$) -- ($(m.south east)+(0,1.65)$)
+  	node[midway, right=4pt] {Lösung, falls sie existiert};
+
+\crd{\draw[decorate,decoration={brace,amplitude=3pt}]
+  	($(m.north east)+(0,-1.65)$) -- ($(m.south east)+(0,0.12)$)
+  	node[midway, right=4pt] {lösbar falls $= 0$};}
+\end{tikzpicture}
+\]
+
+\begin{tabular}{l c l}
+	Eindeutige Lösung			& 	$\Longrightarrow$	&	$rang(A) = n$\\
+	Unendlich viele Lösungen	&	$\Longrightarrow$	&	$rang(A) < n$\\
+	Keine Lösungen				&	$\Longrightarrow$	&	$rang(A) < rang(A|b)$\\
+\end{tabular}
+\vspace{1em}
+
+Elementare Zeilenumformungen ändern den Rang nicht.
+Deshalb bestimmt man den Rang immer über Gauß-Elimination.
 
 
 %----------------------------------------------------------------------------------------------
@@ -539,17 +601,43 @@ Anzahl linear unabhängiger Zeilen / Spalten entspricht der Anzahl eindeutig bes
 
 Ein lineares Gleichungssystem entstspricht dem Produkt aus Matrix mal Vektor.
 
-\begin{tabular}{l l l l l l l l}
-	Gleichungsystem:\\
-	& $a_{11} \cdot x_1$ & $+$ & $a_{12} \cdot x_2$ & $+$ & $a_{13} \cdot x_3$ & $=$ & $b_1$\\
-	& $a_{21} \cdot x_1$ & $+$ & $a_{22} \cdot x_2$ & $+$ & $a_{23} \cdot x_3$ & $=$ & $b_2$\\
-	& $a_{31} \cdot x_1$ & $+$ & $a_{32} \cdot x_2$ & $+$ & $a_{33} \cdot x_3$ & $=$ & $b_3$\\
-\end{tabular}
+\begin{tabular}{l}
+	Gleichungsystem:
+\end{tabular}\\
+\begin{tabular}{lllll l l l l l l l}
+	&&&&& $ a_{11} \cdot x_1$ & $+$ & $a_{12} \cdot x_2$ & $+$ & $a_{13} \cdot x_3$ & $=$ & $b_1$\\
+	&&&&& $ a_{21} \cdot x_1$ & $+$ & $a_{22} \cdot x_2$ & $+$ & $a_{23} \cdot x_3$ & $=$ & $b_2$\\
+	&&&&& $ a_{31} \cdot x_1$ & $+$ & $a_{32} \cdot x_2$ & $+$ & $a_{33} \cdot x_3$ & $=$ & $b_3$\\
+\end{tabular}\\\\
+
+\[
+\begin{pmatrix}
+		a_{11}	&	a_{12}	&	a_{13}\\
+		a_{21}	&	a_{22}	&	a_{23}\\
+		a_{31}	&	a_{32}	&	a_{33}\\
+\end{pmatrix}
+\cdot
+\begin{pmatrix}
+		x_1\\
+		x_2\\
+		x_3\\
+\end{pmatrix}
+=
+\begin{pmatrix}
+		b_1\\
+		b_2\\
+		b_3\\
+\end{pmatrix}
+\quad \Rightarrow \quad Ax=b
+\]
 
 Dieses Gleichungssystem bestitz die Lösung
 $$x = A^{-1} \cdot b$$
-				
-		
+
+
+%----------------------------------------------------------------------------------------------
+%-------------------------     1.10 Homogene / Inhomogene LGS    ------------------------------
+%----------------------------------------------------------------------------------------------		
 \subsection{Homogene / Inhomogene LGS}
 		
 \begin{tabular}{ll}
@@ -557,3 +645,16 @@ $$x = A^{-1} \cdot b$$
 	Homogen: 	& $Ax = 0$ 
 \end{tabular}
 
+
+%----------------------------------------------------------------------------------------------
+%-------------------------     1.11 Reguläre / Singuläre Matrix    ----------------------------
+%----------------------------------------------------------------------------------------------	
+\subsection{Reguläre / Singuläre Matrix}
+
+Die Begriffe sind nur für quadratische Matritzen definiert! 
+\vspace{0.2cm}
+
+\begin{tabular}{lll}
+	Regulär: 	& genau 1 Lösung 			& $\Rightarrow \quad \det(A) \neq 0$ \\
+	Singulär: 	& 0 oder $\infty$ Lösungen 	& $\Rightarrow \quad \det(A) = 0$ 	\\
+\end{tabular}

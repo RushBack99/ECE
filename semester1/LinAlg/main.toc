@@ -13,5 +13,13 @@
 \contentsline {subsection}{\numberline {1.6}Gauss-Algorithmus}{2}{section*.13}%
 \contentsline {subsection}{\numberline {1.7}Lösungsmenge}{2}{section*.14}%
 \contentsline {subsection}{\numberline {1.8}Rang einer Matrix}{2}{section*.15}%
-\contentsline {subsection}{\numberline {1.9}Lineares Gleichungssystem}{2}{section*.16}%
+\contentsline {subsection}{\numberline {1.9}Lineares Gleichungssystem}{3}{section*.16}%
 \contentsline {subsection}{\numberline {1.10}Homogene / Inhomogene LGS}{3}{section*.17}%
+\contentsline {subsection}{\numberline {1.11}Reguläre / Singuläre Matrix}{3}{section*.18}%
+\contentsline {section}{\numberline {2}Determinante}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Notation Determinante}{3}{section*.19}%
+\contentsline {subsection}{\numberline {2.2}Definierende Eigenschaften der Determinante}{3}{section*.20}%
+\contentsline {subsection}{\numberline {2.3}Geometrische Interpretation der Determinante}{3}{section*.21}%
+\contentsline {subsubsection}{\numberline {2.3.1}Fläche}{3}{section*.22}%
+\contentsline {subsubsection}{\numberline {2.3.2}Volumen}{3}{section*.23}%
+\contentsline {subsection}{\numberline {2.4}Allgemeine Berechnung der Determinante}{3}{section*.24}%

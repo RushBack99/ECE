@@ -32,6 +32,7 @@
 \usepackage[normalem]{ulem}         % custom underline (used in custom underline command)
 \usepackage{tikz}                   % needed for TikZ drawings
 \usepackage{pgfplots}               % needed for math drawings
+\usepackage{nicematrix}
 \pgfplotsset{compat=1.17}	        % newest version
 \AtBeginEnvironment{tikzpicture}{\tracinglostchars=0\relax}
 % \usepackage{listings}               % for nicer code display
@@ -413,6 +414,8 @@
 \newcommand{\cbl}[1]{{\color{blue}#1}}
 \newcommand{\cor}[1]{{\color{orange}#1}}
 \newcommand{\cvt}[1]{{\color{violet}#1}}
+\newcommand{\cdgn}[1]{{\color{darkgreen}#1}}
+
 % bullet command for items in tables
 \newcommand{\tabitem}{~~\llap{\textbullet}~~}
 % customizes watermark and page color after a certain page limit

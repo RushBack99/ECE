@@ -1,0 +1,89 @@
+%----------------------------------------------------------------------------------------------
+%------------------------------------     2 Determinante    -----------------------------------
+%----------------------------------------------------------------------------------------------	
+\section{Determinante}
+Die Determinante ist eine Kennzahl dafür, ob eine \textbf{quadratische} Matrix singulär oder regulär ist. 
+\vspace{0.2cm}
+
+\begin{tabular}{lll}
+	Regulär: 	& genau 1 Lösung 			& $\Rightarrow \quad \det(A) \neq 0$ \\
+	Singulär: 	& 0 oder $\infty$ Lösungen 	& $\Rightarrow \quad \det(A) = 0$ 	\\
+\end{tabular}
+		
+
+%----------------------------------------------------------------------------------------------
+%------------------------------     2.1 Notation Determinante    ------------------------------
+%----------------------------------------------------------------------------------------------	
+\subsection{Notation Determinante}
+
+\begin{tabular}{clcl}
+	&$A =
+	\begin{pmatrix}
+		a & b & c \\
+		d & e & f \\
+		g & h & i 
+	\end{pmatrix}$ &&
+	$\det(A) = 
+	\begin{vmatrix}
+		a & b & c \\
+		d & e & f \\
+		g & h & i 
+	\end{vmatrix}$ 
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------------
+%------------------     2.2 Definierende Eigenschaften der Determinante    --------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Definierende Eigenschaften der Determinante}
+
+\begin{enumerate}
+	\item Wenn eine Zeile mit einem Faktor $\lambda$ multipliziert wird, so wird auch $\det(A)$ mit $\lambda$ multipliziert
+	\item $\det(A)$ ändert nicht bei blauen Operationen
+	\item $\det(I) = 1$
+	\item Wenn $A$ singulär ist ($\det(A) = 0$) dann ist auch $A^t$ singulär \\ 
+		  $\det(A^t) = 0$
+\end{enumerate}
+
+
+%----------------------------------------------------------------------------------------------
+%-----------------     2.3 Geometrische Interpretation der Determinante    --------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Geometrische Interpretation der Determinante}
+		
+\subsubsection{Fläche}
+
+Der orientierte Flächeninhalt des Parallelogramms, das von zwei Vektoren $\vec{a}$ und $\vec{b}$ aufgespannt wird, ist die Determinante der beiden Vektoren
+\begin{center}
+	\includegraphics[width=0.7\columnwidth]{images/flaeche-det.PNG}
+\end{center}
+
+		
+\subsubsection{Volumen}				    
+
+Das orientierte Volumen eines Parallelepipeds (Spat), das von drei Vektoren $\vec{a}$, $\vec{b}$ und $\vec{c}$ aufgespannt wird, ist die Determinante dieser drei Vektoren.\\
+\begin{center}
+	\includegraphics[width=0.9\columnwidth]{images/volumen-det.PNG}
+\end{center}
+
+\columnbreak
+
+
+%----------------------------------------------------------------------------------------------
+%---------------------     2.4 Allgemeine Berechnung der Determinante    ----------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Allgemeine Berechnung der Determinante}
+
+Die Determinante kann mithilfe des Gauss-Algorithmus berechnet werden.
+
+Die Determinante ist das \textbf{Produkt} aller Pivot-Elemente.
+
+(Rückwärts-Einsetzen beim Gauss-Verfahren nicht nötig)
+
+$$A =
+\begin{pmatrix}
+	7 & 49 & 14 \\
+	-2 & -6 & 60 \\
+	-1 & 0 & 57 
+\end{pmatrix}$$
+
