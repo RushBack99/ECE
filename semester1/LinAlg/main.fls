@@ -666,6 +666,14 @@ INPUT ./images/volumen-det.PNG
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/tcxb.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtcxb.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txr.vf
+INPUT ./sections/03_Lineare_Vektorraume.tex
+INPUT ./sections/03_Lineare_Vektorraume.tex
+INPUT sections/03_Lineare_Vektorraume.tex
+INPUT ./images/scherung.PNG
+INPUT ./images/scherung.PNG
+INPUT ./images/scherung.PNG
+INPUT ./images/scherung.PNG
+INPUT ./images/scherung.PNG
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out

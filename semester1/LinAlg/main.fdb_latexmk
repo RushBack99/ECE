@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1773777924.11368 "/mnt/c/Users/magae_ty0qkbb/ECE/semester1/LinAlg/main.tex" "main.pdf" "main" 1773777927.5662 0
+["pdflatex"] 1774270553.48415 "/mnt/c/Users/magae_ty0qkbb/ECE/semester1/LinAlg/main.tex" "main.pdf" "main" 1774270557.28062 0
   "/etc/texmf/web2c/texmf.cnf" 1769431356.78123 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/mnt/c/Users/magae_ty0qkbb/ECE/semester1/LinAlg/main.tex" 1773586942.96933 1915 368d48519ce8e5c9056f2583fd9671b0 ""
+  "/mnt/c/Users/magae_ty0qkbb/ECE/semester1/LinAlg/main.tex" 1774020443.50836 1967 e7ea6b02855b2a680959a746080c57c6 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm" 1136768653 3584 49064b465390a8e316a3c8417a050403 ""
@@ -320,14 +320,16 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1769431384.03045 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1769431462 8213560 470246e8ffeab2dcb300da8f83a94e8e ""
   "images/flaeche-det.PNG" 1773588676.20006 98057 d1af2f3c73ebf6dad281c8b86aa43229 ""
+  "images/scherung.PNG" 1774270546.12164 176393 e54dcd407d8850ea2ca324302fa7290e ""
   "images/volumen-det.PNG" 1773588681.32218 85456 ef1284b03cf7674a6db52d364cf17e4a ""
-  "main.aux" 1773777927.35349 4776 03d8ecee656fa58bd57dc81b15e2c88e "pdflatex"
-  "main.out" 1773777927.35951 3772 66301f5fdabb85055ed3412491c484f0 "pdflatex"
-  "main.tex" 1773586942.96933 1915 368d48519ce8e5c9056f2583fd9671b0 ""
-  "main.toc" 1773777927.36452 2733 ae342ed8fb99de1b29b4bba6b58db9a2 "pdflatex"
+  "main.aux" 1774270557.22858 5894 74c85a6fa446ddc9bb4fe0709e4d425f "pdflatex"
+  "main.out" 1774270557.2336 4626 9270d2847f4b21ce845457f52d747117 "pdflatex"
+  "main.tex" 1774020443.50836 1967 e7ea6b02855b2a680959a746080c57c6 ""
+  "main.toc" 1774270557.2376 3445 e7e1d81ee33ed8eebdf0d40b3d6dac4a "pdflatex"
   "preamble.tex" 1773533007.20456 25772 1998c520373628164a94c33ec2625c44 ""
   "sections/01_Lineare_Gleichungssysteme.tex" 1773608364.00151 17396 191797532a77aaec3ca0a34c24bccf49 ""
-  "sections/02_Determinanten.tex" 1773777920.29128 9054 0a345eac5d344522ec223a7701dab364 ""
+  "sections/02_Determinanten.tex" 1774020476.00187 8991 2bcbd0b1014c18b509bad08bf90a42c9 ""
+  "sections/03_Lineare_Vektorraume.tex" 1774270549.58565 6387 f389387b251c2d924ca7a53e44a54ffe ""
   (generated)
   "main.aux"
   "main.log"
