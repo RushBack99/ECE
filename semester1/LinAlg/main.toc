@@ -38,3 +38,11 @@
 \contentsline {subsection}{\numberline {3.4}Lineare Abbildungen (Bilder des Vektoraums)}{4}{section*.38}%
 \contentsline {subsubsection}{\numberline {3.4.1}Anwendung einer Abbildung auf einen Vektor}{4}{section*.40}%
 \contentsline {subsubsection}{\numberline {3.4.2}Zusammensetzung linearer Abbildungen}{4}{section*.41}%
+\contentsline {subsection}{\numberline {3.5}Basiswechsel für lineare Abbildungen}{4}{section*.43}%
+\contentsline {subsection}{\numberline {3.6}Elementare Abbildungsmatritzten}{4}{section*.44}%
+\contentsline {subsubsection}{\numberline {3.6.1}Drehmatrix $D$ finden}{4}{section*.45}%
+\contentsline {subsubsection}{\numberline {3.6.2}Spiegelungen (orthogonale Matrix)}{4}{section*.46}%
+\contentsline {subsubsection}{\numberline {3.6.3}Projektionen}{4}{section*.47}%
+\contentsline {subsubsection}{\numberline {3.6.4}Drehungen $D$ (orthogonale Matrix)}{4}{section*.48}%
+\contentsline {subsection}{\numberline {3.7}Spur}{4}{section*.49}%
+\contentsline {subsubsection}{\numberline {3.7.1}Rechenregeln Spur}{4}{section*.50}%

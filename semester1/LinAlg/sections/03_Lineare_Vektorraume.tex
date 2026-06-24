@@ -165,3 +165,144 @@ Wenn mehrere lineare Abbildungen 'wirken', so werden die Abbildngsmatritzen mult
 \vspace{-0.2cm}
 $$ \text{Abbildungsmatrix:} C = AB \qquad \text{\textrightarrow\ Erst wirkt Abbildungsmatrix $B$, danach $A$} $$ 
 
+
+%----------------------------------------------------------------------------------------------
+%-----------------------     3.6 Basiswechsel für lineare Abbildungen    ----------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Basiswechsel für lineare Abbildungen}
+
+Die lineare Abbildung, die in der Basis $B$ durch die Matrix $A$ beschrieben wird, wird in der Basis $C$ durch die Matrix $A'$ beschrieben.
+		
+\begin{minipage}{0.6\columnwidth}
+	\includegraphics[width=\columnwidth]{images/basiswechsel_abbildungen.PNG}
+\end{minipage}						
+\hfill
+\begin{minipage}{0.35\columnwidth}
+		\begin{align*}
+			\cbl{A'} &= T \cgn{A} \,T^{-1} 		\\
+			\det(A') &= \det(A)					\\
+			\text{Spur}(A') &= \text{Spur}(A)	\\
+		\end{align*}
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------------
+%--------------------------     3.7 Elementare Abbildungsmatritzten    ------------------------
+%----------------------------------------------------------------------------------------------
+\subsection{Elementare Abbildungsmatritzten}
+
+\subsubsection{Drehmatrix $D$ finden}
+
+Die Drehung wird beschrieben durch $D \cdot A = A'$	\\
+Die Spalten der Matrix $A$ sind die Punkte vor der Drehung, $A'$ enthält die Punkte nach der Drehung (Bilder)
+$D = A' \cdot A^{-1}$ 
+
+\textbf{Die Matritzten müssen quadratisch sein! Falls nötig Matritzen mit einem Punkt erweitern, damit sie quadratisch werden}
+		
+		
+\subsubsection{Spiegelungen (orthogonale Matrix)}
+
+\vspace{-0.2cm}
+$$ \det(A) = -1 $$
+
+\textbf{2 Dimensionen:}
+\vspace{0.2cm}
+\begin{tabular}{ccc}
+	$x$-Achse & $y$-Achse & an 45° Geraden \\
+	
+	$\begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$ & $\begin{pmatrix} -1 & 0 \\ 0 & 1 \end{pmatrix}$ & $\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$
+\end{tabular}
+
+\vspace{0.2cm}
+
+\textbf{3 Dimensionen:}
+\vspace{0.2cm}
+\begin{tabular}{ccc}
+	$xy$-Ebene & $xz$-Ebene & an $yz$-Ebene\\
+	$\begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & -1 \end{pmatrix}$ & $\begin{pmatrix} 1 & 0 & 0 \\ 0 & -1 & 0 \\ 0 & 0 & 1 \end{pmatrix}$ & $\begin{pmatrix} -1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}$ \\
+\end{tabular}		  	
+\vspace{0.2cm}	
+
+
+\subsubsection{Projektionen}		
+
+Projektionen auf etwas (z.B. die Koordinatenachsen) liefern die 'Länge des Schattens' des Vektors auf diese Achse. \qquad $P^2 = P$ 
+\vspace{0.2cm}
+
+\textbf{2 Dimensionen:}
+\vspace{0.2cm}
+\begin{tabular}{cc}
+	$x$-Achse & $y$-Achse \\
+	$\begin{pmatrix} 1 & 0  \\ 0 & 0  \end{pmatrix}$ & $\begin{pmatrix} 0 & 0  \\ 1 & 0  \end{pmatrix}$
+\end{tabular}				
+	
+\vspace{0.2cm}
+
+\textbf{3 Dimensionen:}
+\vspace{0.2cm}
+\begin{tabular}{ccc}
+	$xy$-Ebene & $xz$-Ebene & an $yz$-Ebene\\
+	$\begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 0 \end{pmatrix}$ & $\begin{pmatrix} 1 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 1 \end{pmatrix}$ & $\begin{pmatrix} 0 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}$
+\end{tabular}		  	
+\vspace{0.2cm}
+
+
+\subsubsection{Drehungen $D$ (orthogonale Matrix)}
+
+Die Spalten von $D_{\alpha}$ sind Bilder der Basisvektoren 
+
+Determinante: \quad $\det(D) = 1$
+
+\vspace{0.2cm}
+\begin{itemize}
+	\item Die Drehung findet \textbf{gegen den Uhrzeigersinn} statt 
+	\item Für Drehung in Uhrzeigersinn: $D_{-\alpha} = D_{\alpha}^{-1}$ verwenden \textrightarrow\ $D_{\alpha} D_{\beta} = D_{\alpha + \beta}$
+\end{itemize}
+
+\vspace{0.3cm}
+	  	
+\textbf{2 Dimensionen:} 
+\quad
+$D_{\alpha} = \begin{pmatrix} \cos(\alpha) & -\sin(\alpha)  \\ \sin(\alpha) & \cos(\alpha)  \end{pmatrix}$
+
+\textbf{3 Dimensionen} 
+\vspace{0.2cm}
+
+\begin{tabular}{cc}
+	Drehung um $x$-Achse & Drehung um $y$-Achse \\
+	$D_{x} = \begin{pmatrix} 1 & 0 & 0 \\
+	0 & \cos(\alpha) & -\sin(\alpha)  \\ 0 & \sin(\alpha) & \cos(\alpha)  \end{pmatrix}$ & $D_{y} = \begin{pmatrix} \cos(\alpha) & 0 & \sin(\alpha) \\
+	0 & 1 & 0 \\ -\sin(\alpha) & 0 & \cos(\alpha)  \end{pmatrix}$\\
+	\\
+	Drehung um $z$-Achse & \\
+	$D_{z} = \begin{pmatrix} \cos(\alpha) & -\sin(\alpha) & 0 \\ \sin(\alpha) & \cos(\alpha) & 0 \\ 0 & 0 & 1 \end{pmatrix}$
+\end{tabular}
+
+\subsection{Spur}	
+\label{Spur}	  	
+
+Die Spur einer Matrix ist die Summe der Elemente auf der Diagonalen
+\vspace{0.2cm}
+
+\begin{minipage}[t]{0.2\columnwidth}
+	$A = 
+	\begin{pmatrix}
+		\cbl{1} & 7 & 9 \\
+		2 & \cbl{9} & 6 \\ 
+		8 & 3 & \cbl{5}	
+	\end{pmatrix}$
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.7\columnwidth}
+	$\mathrm{Spur}(A) = \cbl{1} + \cbl{9} + \cbl{5} = 15$ 
+\end{minipage}
+
+\vspace{0.3cm}
+
+\subsubsection{Rechenregeln Spur}
+
+\begin{tabular}{llclcl}
+	Vertauschung 			& Spur$(BA)$ & $=$  & Spur$(AB)$ \\
+	Zyklische Vertauschung:	& Spur$(ABC)$ & $=$ & Spur$(CAB)$ &  $=$ & Spur$(BCA)$ \\
+	Anwendung: 				& Spur$(TAT^{-1})$ & $=$ & Spur$(T^{-1}TA)$ & $=$ & Spur$(A)$
+\end{tabular}
