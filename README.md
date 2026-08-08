@@ -28,14 +28,8 @@ Programmieren in C++: coming soon &nbsp;
 Die auf der Zusammenfassung angegebenen Seitenzahlen der Analysis beziehen sich auf [Bronstein](https://www.galaxus.ch/de/s18/product/taschenbuch-der-mathematik-bronstein-deutsch-gerhard-musiol-heiner-muehlig-ilja-n-bronstein-2020-fac-16415453?offertype=retail&offerid=406802&utm_source=google&utm_medium=cpc&utm_campaign=PMax%3A+PROD_CH_SSC_Cluster_7%28C%29&campaignid=20448036879&adtype=pla&adgroupid=&adid=&dgCidg=Cj0KCQiA2bTNBhDjARIsAK89wlHYTewO7vamEl5E80RKpzf1mFewiDc7Ms3RMiTs0WVdRkRjDOIZcDwaAqQREALw_wcB&dgCidg=Cj0KCQiA2bTNBhDjARIsAK89wlHYTewO7vamEl5E80RKpzf1mFewiDc7Ms3RMiTs0WVdRkRjDOIZcDwaAqQREALw_wcB&gclsrc=aw.ds&gad_source=1&gad_campaignid=19973634931&gclid=Cj0KCQiA2bTNBhDjARIsAK89wlHYTewO7vamEl5E80RKpzf1mFewiDc7Ms3RMiTs0WVdRkRjDOIZcDwaAqQREALw_wcB).
 
 
-## Updates Zusammenfassung 
 
-Nach abgeschlossener Prüfung wird die Zusammenassung aktualisiert, falls Fehler gefunden werden. \
-Der aktuelle LaTeX-Code und ein kompiliertes PDF werden in diesem Repo hochgeladen. \
-Es wird allerdings keinen neuen Upload auf Google Drive geben. 
-
-
-### Fehler melden...
+## Fehler melden...
 
 Fehler dürfen gerne in einem neuen [Issue](https://github.com/RushBack99/ECE/issues) gemeldet werden.
 
