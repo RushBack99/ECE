@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.26)  18 MAY 2026 15:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.26)  22 OCT 2026 23:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1291,7 +1291,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 604--612
 [2]) (./sections/02_Determinanten.tex
 contour: Using real outline for `2.3.1\ ' on input line 55.
 contour: Using real outline for `Fläche' on input line 55.
-<images/flaeche-det.PNG, id=198, 629.35126pt x 340.27126pt>
+<images/flaeche-det.PNG, id=233, 629.35126pt x 340.27126pt>
 File: images/flaeche-det.PNG Graphic file (type png)
 <use images/flaeche-det.PNG>
 Package pdftex.def Info: images/flaeche-det.PNG  used on input line 58.
@@ -1303,7 +1303,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-<images/volumen-det.PNG, id=200, 602.25pt x 197.73875pt>
+<images/volumen-det.PNG, id=235, 602.25pt x 197.73875pt>
 File: images/volumen-det.PNG Graphic file (type png)
 <use images/volumen-det.PNG>
 Package pdftex.def Info: images/volumen-det.PNG  used on input line 66.
@@ -1350,7 +1350,7 @@ contour: Using real outline for `3.2.1\ ' on input line 73.
 contour: Using real outline for `Dimension' on input line 73.
 contour: Using real outline for `Beispiel: Punkt mittels Basisvektoren beschreiben' on input line 94.
 contour: Using real outline for `Beispiel: Abbildungsmatrix $A$ einer Scherung' on input line 135.
-<images/scherung.PNG, id=243, 576.65437pt x 313.67188pt>
+<images/scherung.PNG, id=278, 576.65437pt x 313.67188pt>
 File: images/scherung.PNG Graphic file (type png)
 <use images/scherung.PNG>
 Package pdftex.def Info: images/scherung.PNG  used on input line 137.
@@ -1360,7 +1360,7 @@ contour: Using real outline for `Anwendung einer Abbildung auf einen Vektor' on 
 contour: Using real outline for `3.4.2\ ' on input line 158.
 contour: Using real outline for `Zusammensetzung linearer Abbildungen' on input line 158.
 contour: Using real outline for `Beispiel: Zusammensetzung linearer Abbildungen' on input line 165.
-<images/basiswechsel_abbildungen.PNG, id=244, 448.67625pt x 217.81375pt>
+<images/basiswechsel_abbildungen.PNG, id=279, 448.67625pt x 217.81375pt>
 File: images/basiswechsel_abbildungen.PNG Graphic file (type png)
 <use images/basiswechsel_abbildungen.PNG>
 Package pdftex.def Info: images/basiswechsel_abbildungen.PNG  used on input line 177.
@@ -1373,29 +1373,52 @@ contour: Using real outline for `3.6.3\ ' on input line 228.
 contour: Using real outline for `Projektionen' on input line 228.
 contour: Using real outline for `3.6.4\ ' on input line 251.
 contour: Using real outline for `Drehungen $D$ (orthogonale Matrix)' on input line 251.
-contour: Using real outline for `3.7.1\ ' on input line 303.
-contour: Using real outline for `Rechenregeln Spur' on input line 303.
-) [4 <./images/scherung.PNG> <./images/basiswechsel_abbildungen.PNG>] (./main.aux)
+contour: Using real outline for `3.7.1\ ' on input line 307.
+contour: Using real outline for `Rechenregeln Spur' on input line 307.
+) (./sections/04_Vektorgeometry.tex
+Underfull \hbox (badness 10000) in paragraph at lines 308--5
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--5
+
+ []
+
+[4 <./images/scherung.PNG> <./images/basiswechsel_abbildungen.PNG>]
+contour: Using real outline for `4.2.1\ ' on input line 76.
+contour: Using real outline for `Koordinatenform' on input line 76.
+contour: Using real outline for `4.2.2\ ' on input line 93.
+contour: Using real outline for `Parameterform' on input line 93.
+contour: Using real outline for `4.3.1\ ' on input line 110.
+contour: Using real outline for `Beispiel Umwandlung in Hessesche Normalform' on input line 110.
+contour: Using real outline for `2 Dimensionen' on input line 168.
+contour: Using real outline for `3 Dimensionen' on input line 178.
+contour: Using real outline for `4.5.1\ ' on input line 189.
+contour: Using real outline for `Eigenschaften des Skalarprodukts' on input line 189.
+contour: Using real outline for `Cosinus' on input line 220.
+contour: Using real outline for `Sinus' on input line 232.
+) [5] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 70882DE8972BC54401C2D726BDD83EC8;5161.
+(rerunfilecheck)             Checksum: C2E8BEC699C903CC24670FB0B065C080;6405.
  ) 
 Here is how much of TeX's memory you used:
- 48442 strings out of 474222
- 1124249 string characters out of 5748733
+ 48483 strings out of 474222
+ 1124925 string characters out of 5748733
  2117975 words of memory out of 5000000
- 69744 multiletter control sequences out of 15000+600000
- 623250 words of font info for 160 fonts, out of 8000000 for 9000
+ 69758 multiletter control sequences out of 15000+600000
+ 624587 words of font info for 162 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 88i,21n,96p,792b,1233s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (4 pages, 479960 bytes).
+ 88i,21n,96p,792b,1245s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (5 pages, 493607 bytes).
 PDF statistics:
- 355 PDF objects out of 1000 (max. 8388607)
- 310 compressed objects within 4 object streams
- 116 named destinations out of 1000 (max. 500000)
- 265 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 416 PDF objects out of 1000 (max. 8388607)
+ 368 compressed objects within 4 object streams
+ 138 named destinations out of 1000 (max. 500000)
+ 321 words of extra memory for PDF output out of 10000 (max. 10000000)
 

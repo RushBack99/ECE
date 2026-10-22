@@ -46,3 +46,14 @@
 \contentsline {subsubsection}{\numberline {3.6.4}Drehungen $D$ (orthogonale Matrix)}{4}{section*.48}%
 \contentsline {subsection}{\numberline {3.7}Spur}{4}{section*.49}%
 \contentsline {subsubsection}{\numberline {3.7.1}Rechenregeln Spur}{4}{section*.50}%
+\contentsline {section}{\numberline {4}Vektorgeometrie}{5}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Normalenvektor}{5}{section*.51}%
+\contentsline {subsection}{\numberline {4.2}Darstellungsformen von Ebenen / Geraden}{5}{section*.52}%
+\contentsline {subsubsection}{\numberline {4.2.1}Koordinatenform}{5}{section*.53}%
+\contentsline {subsubsection}{\numberline {4.2.2}Parameterform}{5}{section*.54}%
+\contentsline {subsection}{\numberline {4.3}Hesse'sche Normalform als Darstellungsform}{5}{section*.55}%
+\contentsline {subsubsection}{\numberline {4.3.1}Beispiel Umwandlung in Hessesche Normalform}{5}{section*.56}%
+\contentsline {subsection}{\numberline {4.4}Orthonormalbasis}{5}{section*.57}%
+\contentsline {subsection}{\numberline {4.5}Skalarprodukt}{5}{section*.58}%
+\contentsline {subsubsection}{\numberline {4.5.1}Eigenschaften des Skalarprodukts}{5}{section*.59}%
+\contentsline {subsection}{\numberline {4.6}Winkel zwischen zwei Vektoren}{5}{section*.60}%
