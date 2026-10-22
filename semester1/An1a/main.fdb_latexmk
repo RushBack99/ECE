@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1792613275.88376 "/mnt/c/Users/magae_ty0qkbb/ECE/semester1/An1a/main.tex" "main.pdf" "main" 1792613281.90869 0
+["pdflatex"] 1792613812.46136 "/mnt/c/Users/magae_ty0qkbb/ECE/semester1/An1a/main.tex" "main.pdf" "main" 1792613816.18434 0
   "/etc/texmf/web2c/texmf.cnf" 1769431356.78123 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/mnt/c/Users/magae_ty0qkbb/ECE/semester1/An1a/main.tex" 1792613276.01969 1932 bc2e66233080d68c2add3d692cb31400 ""
+  "/mnt/c/Users/magae_ty0qkbb/ECE/semester1/An1a/main.tex" 1792613378.66556 1932 bc2e66233080d68c2add3d692cb31400 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm" 1136768653 3584 49064b465390a8e316a3c8417a050403 ""
@@ -322,12 +322,12 @@
   "images/exp-funktion.PNG" 1770976678.89749 39296 1cb73697d717a840c239871bb1e973d8 ""
   "images/ln-funktion.PNG" 1770976683.78962 30593 12744f8f0d716e266ff1ea65d56b2130 ""
   "images/stetigkeit.PNG" 1770985729.03791 616248 293bd749be68b7238b63ad364c6804d2 ""
-  "main.aux" 1792613280.10369 19604 921b4c3211d71ccf816b39fcfc3f5161 "pdflatex"
-  "main.out" 1792613280.11419 7584 9b2753b8af30c8785e224067d42206c6 "pdflatex"
-  "main.tex" 1792613276.01969 1932 bc2e66233080d68c2add3d692cb31400 ""
+  "main.aux" 1792613814.72178 19604 921b4c3211d71ccf816b39fcfc3f5161 "pdflatex"
+  "main.out" 1792613814.73331 7584 9b2753b8af30c8785e224067d42206c6 "pdflatex"
+  "main.tex" 1792613378.66556 1932 bc2e66233080d68c2add3d692cb31400 ""
   "preamble.tex" 1772988182.56944 26033 79baf711962193c9fe9d643bb4e15d73 ""
   "sections/01_Reelle_Zahlen.tex" 1771005955.56605 12166 47bf12e7329f8aeb1e4cdb8f2fbf03fd ""
-  "sections/02_Funktionen.tex" 1772988956.33334 15386 48bc0a7e531c1f75e4f28fdfc34b6e41 ""
+  "sections/02_Funktionen.tex" 1792613809.49058 15386 91c846118b008552df293611b04da88a ""
   "sections/03_FolgenundReihen.tex" 1771005955.56706 9480 f1e26a1c1243446c0422e710ad4c5afc ""
   "sections/04_Grenzwerte.tex" 1772985626.4658 11796 853c3490dd4b86f480108a9034ba0f35 ""
   (generated)
