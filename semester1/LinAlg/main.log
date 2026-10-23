@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.26)  22 OCT 2026 23:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.26)  23 OCT 2026 23:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1291,7 +1291,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 604--612
 [2]) (./sections/02_Determinanten.tex
 contour: Using real outline for `2.3.1\ ' on input line 55.
 contour: Using real outline for `Fläche' on input line 55.
-<images/flaeche-det.PNG, id=233, 629.35126pt x 340.27126pt>
+<images/flaeche-det.PNG, id=318, 629.35126pt x 340.27126pt>
 File: images/flaeche-det.PNG Graphic file (type png)
 <use images/flaeche-det.PNG>
 Package pdftex.def Info: images/flaeche-det.PNG  used on input line 58.
@@ -1303,7 +1303,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-<images/volumen-det.PNG, id=235, 602.25pt x 197.73875pt>
+<images/volumen-det.PNG, id=320, 602.25pt x 197.73875pt>
 File: images/volumen-det.PNG Graphic file (type png)
 <use images/volumen-det.PNG>
 Package pdftex.def Info: images/volumen-det.PNG  used on input line 66.
@@ -1350,7 +1350,7 @@ contour: Using real outline for `3.2.1\ ' on input line 73.
 contour: Using real outline for `Dimension' on input line 73.
 contour: Using real outline for `Beispiel: Punkt mittels Basisvektoren beschreiben' on input line 94.
 contour: Using real outline for `Beispiel: Abbildungsmatrix $A$ einer Scherung' on input line 135.
-<images/scherung.PNG, id=278, 576.65437pt x 313.67188pt>
+<images/scherung.PNG, id=364, 576.65437pt x 313.67188pt>
 File: images/scherung.PNG Graphic file (type png)
 <use images/scherung.PNG>
 Package pdftex.def Info: images/scherung.PNG  used on input line 137.
@@ -1360,7 +1360,7 @@ contour: Using real outline for `Anwendung einer Abbildung auf einen Vektor' on 
 contour: Using real outline for `3.4.2\ ' on input line 158.
 contour: Using real outline for `Zusammensetzung linearer Abbildungen' on input line 158.
 contour: Using real outline for `Beispiel: Zusammensetzung linearer Abbildungen' on input line 165.
-<images/basiswechsel_abbildungen.PNG, id=279, 448.67625pt x 217.81375pt>
+<images/basiswechsel_abbildungen.PNG, id=365, 448.67625pt x 217.81375pt>
 File: images/basiswechsel_abbildungen.PNG Graphic file (type png)
 <use images/basiswechsel_abbildungen.PNG>
 Package pdftex.def Info: images/basiswechsel_abbildungen.PNG  used on input line 177.
@@ -1398,27 +1398,180 @@ contour: Using real outline for `4.5.1\ ' on input line 189.
 contour: Using real outline for `Eigenschaften des Skalarprodukts' on input line 189.
 contour: Using real outline for `Cosinus' on input line 220.
 contour: Using real outline for `Sinus' on input line 232.
-) [5] (./main.aux)
+
+Overfull \hbox (1.52pt too wide) in paragraph at lines 218--241
+[][]  [] 
+ []
+
+<images/parallel-orthagonal.PNG, id=400, 330.73563pt x 172.645pt>
+File: images/parallel-orthagonal.PNG Graphic file (type png)
+<use images/parallel-orthagonal.PNG>
+Package pdftex.def Info: images/parallel-orthagonal.PNG  used on input line 249.
+(pdftex.def)             Requested size: 187.25294pt x 97.7448pt.
+<images/spiegelung.PNG, id=401, 263.98625pt x 145.54375pt>
+File: images/spiegelung.PNG Graphic file (type png)
+<use images/spiegelung.PNG>
+Package pdftex.def Info: images/spiegelung.PNG  used on input line 262.
+(pdftex.def)             Requested size: 144.04208pt x 79.41414pt.
+contour: Using real outline for `4.9.1\ ' on input line 285.
+contour: Using real outline for `Eigenschaften orthagonaler Matritzten' on input line 285.
+contour: Using real outline for `4.10.1\ ' on input line 320.
+contour: Using real outline for `Länge des Normalenvektors nicht 1' on input line 320.
+contour: Using real outline for `4.10.2\ ' on input line 341.
+contour: Using real outline for `Länge des Normalenvektors ist 1' on input line 341.
+[5 <./images/parallel-orthagonal.PNG> <./images/spiegelung.PNG>]
+contour: Using real outline for `4.11.1\ ' on input line 396.
+contour: Using real outline for `Eigenschaften des Vektorprodukts' on input line 396.
+<images/zwischenwinkel.PNG, id=434, 333.74687pt x 354.32375pt>
+File: images/zwischenwinkel.PNG Graphic file (type png)
+<use images/zwischenwinkel.PNG>
+Package pdftex.def Info: images/zwischenwinkel.PNG  used on input line 412.
+(pdftex.def)             Requested size: 86.42612pt x 91.75435pt.
+<images/flaeche-polygon.PNG, id=435, 846.66313pt x 468.75125pt>
+File: images/flaeche-polygon.PNG Graphic file (type png)
+<use images/flaeche-polygon.PNG>
+Package pdftex.def Info: images/flaeche-polygon.PNG  used on input line 425.
+(pdftex.def)             Requested size: 138.27916pt x 76.55383pt.
+<images/schuhbaendel.PNG, id=436, 729.22438pt x 388.45125pt>
+File: images/schuhbaendel.PNG Graphic file (type png)
+<use images/schuhbaendel.PNG>
+Package pdftex.def Info: images/schuhbaendel.PNG  used on input line 429.
+(pdftex.def)             Requested size: 138.27916pt x 73.65831pt.
+<images/schnittpunkt-tableau.PNG, id=437, 249.43187pt x 127.97812pt>
+File: images/schnittpunkt-tableau.PNG Graphic file (type png)
+<use images/schnittpunkt-tableau.PNG>
+Package pdftex.def Info: images/schnittpunkt-tableau.PNG  used on input line 441.
+(pdftex.def)             Requested size: 152.68425pt x 78.34187pt.
+contour: Using real outline for `Beispiel: Schnittpunkt von zwei Geraden' on input line 454.
+contour: Using real outline for `Beispiel: Durchstosspunkt Gerade durch Ebene' on input line 506.
+contour: Using real outline for `Beispiel: Schnittgerade von 2 Ebenen' on input line 560.
+contour: Using real outline for `4.14.1\ ' on input line 624.
+contour: Using real outline for `Gram-Schmidtsches Orthonormalisierungsverfahren' on input line 624.
+contour: Using real outline for `Beispiel: Least Squares' on input line 650.
+contour: Using real outline for `4.16.1\ ' on input line 694.
+contour: Using real outline for `Kreisgleichungen' on input line 694.
+<images/kreisgleichung.PNG, id=439, 561.59813pt x 200.75pt>
+File: images/kreisgleichung.PNG Graphic file (type png)
+<use images/kreisgleichung.PNG>
+Package pdftex.def Info: images/kreisgleichung.PNG  used on input line 705.
+(pdftex.def)             Requested size: 230.4682pt x 82.38153pt.
+contour: Using real outline for `4.16.2\ ' on input line 709.
+contour: Using real outline for `Thales-Kreis' on input line 709.
+<images/thales-kreis.PNG, id=440, 208.27812pt x 182.6825pt>
+File: images/thales-kreis.PNG Graphic file (type png)
+<use images/thales-kreis.PNG>
+Package pdftex.def Info: images/thales-kreis.PNG  used on input line 711.
+(pdftex.def)             Requested size: 90.7455pt x 79.59445pt.
+contour: Using real outline for `\textbf {Thales-Kreis}' on input line 716.
+contour: Using real outline for `4.16.3\ ' on input line 722.
+contour: Using real outline for `Durchstosspunkt Gerade-Kreis' on input line 722.
+<images/durchstosspunkt-gerade-kreis.PNG, id=441, 726.21312pt x 357.335pt>
+File: images/durchstosspunkt-gerade-kreis.PNG Graphic file (type png)
+<use images/durchstosspunkt-gerade-kreis.PNG>
+Package pdftex.def Info: images/durchstosspunkt-gerade-kreis.PNG  used on input line 724.
+(pdftex.def)             Requested size: 201.65804pt x 99.22433pt.
+[6 <./images/zwischenwinkel.PNG> <./images/flaeche-polygon.PNG> <./images/schuhbaendel.PNG> <./images/schnittpunkt-tableau.PNG> <./images/kreisgleichung.PNG> <./images/thales-kreis.PNG>]
+contour: Using real outline for `4.16.4\ ' on input line 730.
+contour: Using real outline for `Tangente an Kreis' on input line 730.
+<images/kreis-tangente.PNG, id=472, 722.7pt x 381.92688pt>
+File: images/kreis-tangente.PNG Graphic file (type png)
+<use images/kreis-tangente.PNG>
+Package pdftex.def Info: images/kreis-tangente.PNG  used on input line 732.
+(pdftex.def)             Requested size: 201.65804pt x 106.57164pt.
+contour: Using real outline for `4.17.1\ ' on input line 742.
+contour: Using real outline for `Kugelgleichungen' on input line 742.
+contour: Using real outline for `4.17.2\ ' on input line 751.
+contour: Using real outline for `Formeln zur Kugel' on input line 751.
+<images/kugel.PNG, id=473, 692.5875pt x 352.31625pt>
+File: images/kugel.PNG Graphic file (type png)
+<use images/kugel.PNG>
+Package pdftex.def Info: images/kugel.PNG  used on input line 753.
+(pdftex.def)             Requested size: 230.4682pt x 117.23775pt.
+contour: Using real outline for `4.18.1\ ' on input line 763.
+contour: Using real outline for `Abstand Punkt-Ebene' on input line 763.
+contour: Using real outline for `4.18.2\ ' on input line 769.
+contour: Using real outline for `Abstand Punkt-Gerade' on input line 769.
+<images/punkt-gerade.PNG, id=475, 232.36812pt x 218.8175pt>
+File: images/punkt-gerade.PNG Graphic file (type png)
+<use images/punkt-gerade.PNG>
+Package pdftex.def Info: images/punkt-gerade.PNG  used on input line 774.
+(pdftex.def)             Requested size: 86.42612pt x 81.38524pt.
+contour: Using real outline for `4.18.3\ ' on input line 792.
+contour: Using real outline for `Abstand windschiefer Geraden in 3D' on input line 792.
+contour: Using real outline for `4.18.4\ ' on input line 799.
+contour: Using real outline for `Minimaler Abstand' on input line 799.
+<images/minimaler-abstand.PNG, id=476, 509.40312pt x 255.95625pt>
+File: images/minimaler-abstand.PNG Graphic file (type png)
+<use images/minimaler-abstand.PNG>
+Package pdftex.def Info: images/minimaler-abstand.PNG  used on input line 801.
+(pdftex.def)             Requested size: 201.65804pt x 101.32617pt.
+) (./sections/05_Eigenwerte_Eigenvektoren.tex
+contour: Using real outline for `5.0.1\ ' on input line 11.
+contour: Using real outline for `Eigenschaften' on input line 11.
+contour: Using real outline for `5.0.2\ ' on input line 23.
+contour: Using real outline for `Eigenwerte und Eigenvektoren finden' on input line 23.
+contour: Using real outline for `Beispiel: Eigenwerte und Eigenvektoren berechnen' on input line 34.
+<images/eigenwerte-eigenvektoren.PNG, id=478, 712.16063pt x 353.82187pt>
+File: images/eigenwerte-eigenvektoren.PNG Graphic file (type png)
+<use images/eigenwerte-eigenvektoren.PNG>
+Package pdftex.def Info: images/eigenwerte-eigenvektoren.PNG  used on input line 36.
+(pdftex.def)             Requested size: 244.87329pt x 121.65836pt.
+contour: Using real outline for `5.0.3\ ' on input line 41.
+contour: Using real outline for `Spezialfall -- Eigenwerte und Eigenvektoren' on input line 41.
+contour: Using real outline for `Beispiel: Spezialfall' on input line 48.
+contour: Using real outline for `5.1.1\ ' on input line 74.
+contour: Using real outline for `Rechenregeln Eigenwerte' on input line 74.
+contour: Using real outline for `5.2.1\ ' on input line 95.
+contour: Using real outline for `Vorgehen Matrix diagonalisieren' on input line 95.
+<images/matrix-diagonalisieren.PNG, id=480, 647.41875pt x 256.96pt>
+File: images/matrix-diagonalisieren.PNG Graphic file (type png)
+<use images/matrix-diagonalisieren.PNG>
+Package pdftex.def Info: images/matrix-diagonalisieren.PNG  used on input line 108.
+(pdftex.def)             Requested size: 201.65804pt x 80.0371pt.
+contour: Using real outline for `5.2.2\ ' on input line 112.
+contour: Using real outline for `Transformationsmatrix $T$ und Eigenbasis $C$' on input line 112.
+contour: Using real outline for `5.2.3\ ' on input line 120.
+contour: Using real outline for `Spezialfall Symmetrische Matrix diagonalisieren' on input line 120.
+[7 <./images/durchstosspunkt-gerade-kreis.PNG> <./images/kreis-tangente.PNG> <./images/kugel.PNG> <./images/punkt-gerade.PNG> <./images/minimaler-abstand.PNG> <./images/eigenwerte-eigenvektoren.PNG> <./images/matrix-diagonalisieren.PNG>]
+<images/SVD.PNG, id=538, 733.23938pt x 381.92688pt>
+File: images/SVD.PNG Graphic file (type png)
+<use images/SVD.PNG>
+Package pdftex.def Info: images/SVD.PNG  used on input line 140.
+(pdftex.def)             Requested size: 201.65804pt x 105.03896pt.
+
+contour: Using real outline for `5.3.1\ ' on input line 145.
+contour: Using real outline for `Vorgehen Singulärwertzerlegung' on input line 145.
+<images/pseudoinverse.PNG, id=540, 647.41875pt x 246.9225pt>
+File: images/pseudoinverse.PNG Graphic file (type png)
+<use images/pseudoinverse.PNG>
+Package pdftex.def Info: images/pseudoinverse.PNG  used on input line 167.
+(pdftex.def)             Requested size: 230.4682pt x 87.89734pt.
+<images/pseudoinverse2.PNG, id=541, 686.565pt x 307.64937pt>
+File: images/pseudoinverse2.PNG Graphic file (type png)
+<use images/pseudoinverse2.PNG>
+Package pdftex.def Info: images/pseudoinverse2.PNG  used on input line 168.
+(pdftex.def)             Requested size: 230.4682pt x 103.27089pt.
+) [8 <./images/SVD.PNG> <./images/pseudoinverse.PNG> <./images/pseudoinverse2.PNG>] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C2E8BEC699C903CC24670FB0B065C080;6405.
+(rerunfilecheck)             Checksum: 9C87A7E9E5365CC9CA6494D23B705F41;9641.
  ) 
 Here is how much of TeX's memory you used:
- 48483 strings out of 474222
- 1124925 string characters out of 5748733
+ 48744 strings out of 474222
+ 1130905 string characters out of 5748733
  2117975 words of memory out of 5000000
- 69758 multiletter control sequences out of 15000+600000
- 624587 words of font info for 162 fonts, out of 8000000 for 9000
+ 69907 multiletter control sequences out of 15000+600000
+ 628629 words of font info for 168 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 88i,21n,96p,792b,1245s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (5 pages, 493607 bytes).
+ 88i,21n,96p,792b,1467s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txexa.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (8 pages, 1405001 bytes).
 PDF statistics:
- 416 PDF objects out of 1000 (max. 8388607)
- 368 compressed objects within 4 object streams
- 138 named destinations out of 1000 (max. 500000)
- 321 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 669 PDF objects out of 1000 (max. 8388607)
+ 575 compressed objects within 6 object streams
+ 241 named destinations out of 1000 (max. 500000)
+ 547 words of extra memory for PDF output out of 10000 (max. 10000000)
 
