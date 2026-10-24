@@ -39,7 +39,7 @@ $$A \vec{v} = \lambda \vec{v} \quad \text{und} \quad \vec{v \neq 0}$$
 
 \subsubsection{Spezialfall -- Eigenwerte und Eigenvektoren}
 
-Wenn $A A^t$ oder $A^t A$ eine Zeile und Spalte mit nur
+Wenn $A A^T$ oder $A^T A$ eine Zeile und Spalte mit nur
 einem Zahleneintrag enthalten, so ist die Zahl ein Eigenwert zum zugehörigen Standardbasisvektor. \\
 Die weiteren EW und EV können ohne diese Zeile / Spalte berechnet werden!	   
 
@@ -47,13 +47,13 @@ Die weiteren EW und EV können ohne diese Zeile / Spalte berechnet werden!
 \example{Spezialfall}
 
 \begin{minipage}{0.35\linewidth}
-	$$ AA^t = \begin{pmatrix} 2 & 0 & -2 \\ 0 & 9 & 0 \\ -2 & 0 & 2 \end{pmatrix} $$
+	$$ AA^T = \begin{pmatrix} 2 & 0 & -2 \\ 0 & 9 & 0 \\ -2 & 0 & 2 \end{pmatrix} $$
 	$$ A_0 = \begin{pmatrix}2 & -2 \\ -2 & 2 \end{pmatrix} $$						
 \end{minipage}	
 \hfill
 \begin{minipage}{0.55\linewidth}
 	\begin{center}
-		Aus $AA^t$ kann man $\lambda = 9$ direkt ablesen.
+		Aus $AA^T$ kann man $\lambda = 9$ direkt ablesen.
 		$$ \text{Daraus folgt: }\vec{v}_{\lambda} = \begin{pmatrix} 0 \\ 1 \\ 0 \end{pmatrix} $$
 	\end{center}
 \end{minipage}		
@@ -86,7 +86,7 @@ Mit Diagonalmatritzen kann man einfach rechnen.
 \textbf{Eine Matrix ist diagonalisierbar, wenn:} 
 \vspace{0.1cm}
 \begin{itemize}
-	\item Die Matrix symmetrisch ist , also $A = A^t$
+	\item Die Matrix symmetrisch ist , also $A = A^T$
 	\item \textbf{Eine Basis aus Eigenvektoren existiert}
 \end{itemize}
 			
@@ -127,11 +127,11 @@ Die Eigenvektoren einer symmetischen Matrix sind orthagonal
 \subsection{Singulärwertzerlegung (SVD)}
 
 Eine $m \times n$ Matrix $A$ wird zerlegt in zwei orthagonale Matritzen und eine Diagonalmatrix
-$$ A = U \, \Sigma \, V^t$$	 
+$$ A = U \, \Sigma \, V^T$$	 
 
 \begin{tabular}{ll}
-	$U$ 		& Orthagonale $m \times m$ Matrix  ($U$ diagonalisiert $A A^t$)		\\
-	$V$ 		& Orthagonale $n \times n$ Matrix ($V$ diagonalisiert $A^t A$)		\\
+	$U$ 		& Orthagonale $m \times m$ Matrix  ($U$ diagonalisiert $A A^T$)		\\
+	$V$ 		& Orthagonale $n \times n$ Matrix ($V$ diagonalisiert $A^T A$)		\\
 	$V^t$ 		& Transponierte von $U$ 											\\
 	$\Sigma$ 	& Diagnonalmatrix mit $r$ Singulärwerten $\sigma_0$ bis $\sigma_r$
 \end{tabular}			 
@@ -144,8 +144,8 @@ $$ A = U \, \Sigma \, V^t$$
 \subsubsection{Vorgehen Singulärwertzerlegung}
 
 \begin{enumerate}
-	\item $A A^t$ und $A^t A$ berechnen
-	\item Eigenwerte von $A A^t$ oder $A^t A$ berechnen (EW identisch)
+	\item $A A^T$ und $A^T A$ berechnen
+	\item Eigenwerte von $A A^T$ oder $A^T A$ berechnen (EW identisch)
 	\item Eigenwerte der Grösse nach sortieren: $\sigma_1 \geq \sigma_2 \geq \ldots \geq \sigma_r \geq 0$
 	\item $V =$ auf Länge 1 normierte Eigenvektoren von $A^t A$
 	\item $U =$ Spalten $u_i$ mit $u_i = \frac{A v_i}{\vert A v_i \vert}$

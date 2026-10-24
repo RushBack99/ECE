@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.26)  23 OCT 2026 23:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.26)  24 OCT 2026 11:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1291,7 +1291,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 604--612
 [2]) (./sections/02_Determinanten.tex
 contour: Using real outline for `2.3.1\ ' on input line 55.
 contour: Using real outline for `Fläche' on input line 55.
-<images/flaeche-det.PNG, id=318, 629.35126pt x 340.27126pt>
+<images/flaeche-det.PNG, id=374, 629.35126pt x 340.27126pt>
 File: images/flaeche-det.PNG Graphic file (type png)
 <use images/flaeche-det.PNG>
 Package pdftex.def Info: images/flaeche-det.PNG  used on input line 58.
@@ -1303,7 +1303,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-<images/volumen-det.PNG, id=320, 602.25pt x 197.73875pt>
+<images/volumen-det.PNG, id=376, 602.25pt x 197.73875pt>
 File: images/volumen-det.PNG Graphic file (type png)
 <use images/volumen-det.PNG>
 Package pdftex.def Info: images/volumen-det.PNG  used on input line 66.
@@ -1350,7 +1350,7 @@ contour: Using real outline for `3.2.1\ ' on input line 73.
 contour: Using real outline for `Dimension' on input line 73.
 contour: Using real outline for `Beispiel: Punkt mittels Basisvektoren beschreiben' on input line 94.
 contour: Using real outline for `Beispiel: Abbildungsmatrix $A$ einer Scherung' on input line 135.
-<images/scherung.PNG, id=364, 576.65437pt x 313.67188pt>
+<images/scherung.PNG, id=419, 576.65437pt x 313.67188pt>
 File: images/scherung.PNG Graphic file (type png)
 <use images/scherung.PNG>
 Package pdftex.def Info: images/scherung.PNG  used on input line 137.
@@ -1360,7 +1360,7 @@ contour: Using real outline for `Anwendung einer Abbildung auf einen Vektor' on 
 contour: Using real outline for `3.4.2\ ' on input line 158.
 contour: Using real outline for `Zusammensetzung linearer Abbildungen' on input line 158.
 contour: Using real outline for `Beispiel: Zusammensetzung linearer Abbildungen' on input line 165.
-<images/basiswechsel_abbildungen.PNG, id=365, 448.67625pt x 217.81375pt>
+<images/basiswechsel_abbildungen.PNG, id=420, 448.67625pt x 217.81375pt>
 File: images/basiswechsel_abbildungen.PNG Graphic file (type png)
 <use images/basiswechsel_abbildungen.PNG>
 Package pdftex.def Info: images/basiswechsel_abbildungen.PNG  used on input line 177.
@@ -1403,12 +1403,12 @@ Overfull \hbox (1.52pt too wide) in paragraph at lines 218--241
 [][]  [] 
  []
 
-<images/parallel-orthagonal.PNG, id=400, 330.73563pt x 172.645pt>
+<images/parallel-orthagonal.PNG, id=456, 330.73563pt x 172.645pt>
 File: images/parallel-orthagonal.PNG Graphic file (type png)
 <use images/parallel-orthagonal.PNG>
 Package pdftex.def Info: images/parallel-orthagonal.PNG  used on input line 249.
 (pdftex.def)             Requested size: 187.25294pt x 97.7448pt.
-<images/spiegelung.PNG, id=401, 263.98625pt x 145.54375pt>
+<images/spiegelung.PNG, id=457, 263.98625pt x 145.54375pt>
 File: images/spiegelung.PNG Graphic file (type png)
 <use images/spiegelung.PNG>
 Package pdftex.def Info: images/spiegelung.PNG  used on input line 262.
@@ -1422,22 +1422,22 @@ contour: Using real outline for `Länge des Normalenvektors ist 1' on input line
 [5 <./images/parallel-orthagonal.PNG> <./images/spiegelung.PNG>]
 contour: Using real outline for `4.11.1\ ' on input line 396.
 contour: Using real outline for `Eigenschaften des Vektorprodukts' on input line 396.
-<images/zwischenwinkel.PNG, id=434, 333.74687pt x 354.32375pt>
+<images/zwischenwinkel.PNG, id=489, 333.74687pt x 354.32375pt>
 File: images/zwischenwinkel.PNG Graphic file (type png)
 <use images/zwischenwinkel.PNG>
 Package pdftex.def Info: images/zwischenwinkel.PNG  used on input line 412.
 (pdftex.def)             Requested size: 86.42612pt x 91.75435pt.
-<images/flaeche-polygon.PNG, id=435, 846.66313pt x 468.75125pt>
+<images/flaeche-polygon.PNG, id=490, 846.66313pt x 468.75125pt>
 File: images/flaeche-polygon.PNG Graphic file (type png)
 <use images/flaeche-polygon.PNG>
 Package pdftex.def Info: images/flaeche-polygon.PNG  used on input line 425.
 (pdftex.def)             Requested size: 138.27916pt x 76.55383pt.
-<images/schuhbaendel.PNG, id=436, 729.22438pt x 388.45125pt>
+<images/schuhbaendel.PNG, id=491, 729.22438pt x 388.45125pt>
 File: images/schuhbaendel.PNG Graphic file (type png)
 <use images/schuhbaendel.PNG>
 Package pdftex.def Info: images/schuhbaendel.PNG  used on input line 429.
 (pdftex.def)             Requested size: 138.27916pt x 73.65831pt.
-<images/schnittpunkt-tableau.PNG, id=437, 249.43187pt x 127.97812pt>
+<images/schnittpunkt-tableau.PNG, id=492, 249.43187pt x 127.97812pt>
 File: images/schnittpunkt-tableau.PNG Graphic file (type png)
 <use images/schnittpunkt-tableau.PNG>
 Package pdftex.def Info: images/schnittpunkt-tableau.PNG  used on input line 441.
@@ -1450,14 +1450,14 @@ contour: Using real outline for `Gram-Schmidtsches Orthonormalisierungsverfahren
 contour: Using real outline for `Beispiel: Least Squares' on input line 650.
 contour: Using real outline for `4.16.1\ ' on input line 694.
 contour: Using real outline for `Kreisgleichungen' on input line 694.
-<images/kreisgleichung.PNG, id=439, 561.59813pt x 200.75pt>
+<images/kreisgleichung.PNG, id=494, 561.59813pt x 200.75pt>
 File: images/kreisgleichung.PNG Graphic file (type png)
 <use images/kreisgleichung.PNG>
 Package pdftex.def Info: images/kreisgleichung.PNG  used on input line 705.
 (pdftex.def)             Requested size: 230.4682pt x 82.38153pt.
 contour: Using real outline for `4.16.2\ ' on input line 709.
 contour: Using real outline for `Thales-Kreis' on input line 709.
-<images/thales-kreis.PNG, id=440, 208.27812pt x 182.6825pt>
+<images/thales-kreis.PNG, id=495, 208.27812pt x 182.6825pt>
 File: images/thales-kreis.PNG Graphic file (type png)
 <use images/thales-kreis.PNG>
 Package pdftex.def Info: images/thales-kreis.PNG  used on input line 711.
@@ -1465,7 +1465,7 @@ Package pdftex.def Info: images/thales-kreis.PNG  used on input line 711.
 contour: Using real outline for `\textbf {Thales-Kreis}' on input line 716.
 contour: Using real outline for `4.16.3\ ' on input line 722.
 contour: Using real outline for `Durchstosspunkt Gerade-Kreis' on input line 722.
-<images/durchstosspunkt-gerade-kreis.PNG, id=441, 726.21312pt x 357.335pt>
+<images/durchstosspunkt-gerade-kreis.PNG, id=496, 726.21312pt x 357.335pt>
 File: images/durchstosspunkt-gerade-kreis.PNG Graphic file (type png)
 <use images/durchstosspunkt-gerade-kreis.PNG>
 Package pdftex.def Info: images/durchstosspunkt-gerade-kreis.PNG  used on input line 724.
@@ -1473,7 +1473,7 @@ Package pdftex.def Info: images/durchstosspunkt-gerade-kreis.PNG  used on input 
 [6 <./images/zwischenwinkel.PNG> <./images/flaeche-polygon.PNG> <./images/schuhbaendel.PNG> <./images/schnittpunkt-tableau.PNG> <./images/kreisgleichung.PNG> <./images/thales-kreis.PNG>]
 contour: Using real outline for `4.16.4\ ' on input line 730.
 contour: Using real outline for `Tangente an Kreis' on input line 730.
-<images/kreis-tangente.PNG, id=472, 722.7pt x 381.92688pt>
+<images/kreis-tangente.PNG, id=527, 722.7pt x 381.92688pt>
 File: images/kreis-tangente.PNG Graphic file (type png)
 <use images/kreis-tangente.PNG>
 Package pdftex.def Info: images/kreis-tangente.PNG  used on input line 732.
@@ -1482,7 +1482,7 @@ contour: Using real outline for `4.17.1\ ' on input line 742.
 contour: Using real outline for `Kugelgleichungen' on input line 742.
 contour: Using real outline for `4.17.2\ ' on input line 751.
 contour: Using real outline for `Formeln zur Kugel' on input line 751.
-<images/kugel.PNG, id=473, 692.5875pt x 352.31625pt>
+<images/kugel.PNG, id=528, 692.5875pt x 352.31625pt>
 File: images/kugel.PNG Graphic file (type png)
 <use images/kugel.PNG>
 Package pdftex.def Info: images/kugel.PNG  used on input line 753.
@@ -1491,7 +1491,7 @@ contour: Using real outline for `4.18.1\ ' on input line 763.
 contour: Using real outline for `Abstand Punkt-Ebene' on input line 763.
 contour: Using real outline for `4.18.2\ ' on input line 769.
 contour: Using real outline for `Abstand Punkt-Gerade' on input line 769.
-<images/punkt-gerade.PNG, id=475, 232.36812pt x 218.8175pt>
+<images/punkt-gerade.PNG, id=530, 232.36812pt x 218.8175pt>
 File: images/punkt-gerade.PNG Graphic file (type png)
 <use images/punkt-gerade.PNG>
 Package pdftex.def Info: images/punkt-gerade.PNG  used on input line 774.
@@ -1500,7 +1500,7 @@ contour: Using real outline for `4.18.3\ ' on input line 792.
 contour: Using real outline for `Abstand windschiefer Geraden in 3D' on input line 792.
 contour: Using real outline for `4.18.4\ ' on input line 799.
 contour: Using real outline for `Minimaler Abstand' on input line 799.
-<images/minimaler-abstand.PNG, id=476, 509.40312pt x 255.95625pt>
+<images/minimaler-abstand.PNG, id=531, 509.40312pt x 255.95625pt>
 File: images/minimaler-abstand.PNG Graphic file (type png)
 <use images/minimaler-abstand.PNG>
 Package pdftex.def Info: images/minimaler-abstand.PNG  used on input line 801.
@@ -1511,7 +1511,7 @@ contour: Using real outline for `Eigenschaften' on input line 11.
 contour: Using real outline for `5.0.2\ ' on input line 23.
 contour: Using real outline for `Eigenwerte und Eigenvektoren finden' on input line 23.
 contour: Using real outline for `Beispiel: Eigenwerte und Eigenvektoren berechnen' on input line 34.
-<images/eigenwerte-eigenvektoren.PNG, id=478, 712.16063pt x 353.82187pt>
+<images/eigenwerte-eigenvektoren.PNG, id=533, 712.16063pt x 353.82187pt>
 File: images/eigenwerte-eigenvektoren.PNG Graphic file (type png)
 <use images/eigenwerte-eigenvektoren.PNG>
 Package pdftex.def Info: images/eigenwerte-eigenvektoren.PNG  used on input line 36.
@@ -1523,7 +1523,7 @@ contour: Using real outline for `5.1.1\ ' on input line 74.
 contour: Using real outline for `Rechenregeln Eigenwerte' on input line 74.
 contour: Using real outline for `5.2.1\ ' on input line 95.
 contour: Using real outline for `Vorgehen Matrix diagonalisieren' on input line 95.
-<images/matrix-diagonalisieren.PNG, id=480, 647.41875pt x 256.96pt>
+<images/matrix-diagonalisieren.PNG, id=535, 647.41875pt x 256.96pt>
 File: images/matrix-diagonalisieren.PNG Graphic file (type png)
 <use images/matrix-diagonalisieren.PNG>
 Package pdftex.def Info: images/matrix-diagonalisieren.PNG  used on input line 108.
@@ -1533,7 +1533,7 @@ contour: Using real outline for `Transformationsmatrix $T$ und Eigenbasis $C$' o
 contour: Using real outline for `5.2.3\ ' on input line 120.
 contour: Using real outline for `Spezialfall Symmetrische Matrix diagonalisieren' on input line 120.
 [7 <./images/durchstosspunkt-gerade-kreis.PNG> <./images/kreis-tangente.PNG> <./images/kugel.PNG> <./images/punkt-gerade.PNG> <./images/minimaler-abstand.PNG> <./images/eigenwerte-eigenvektoren.PNG> <./images/matrix-diagonalisieren.PNG>]
-<images/SVD.PNG, id=538, 733.23938pt x 381.92688pt>
+<images/SVD.PNG, id=593, 733.23938pt x 381.92688pt>
 File: images/SVD.PNG Graphic file (type png)
 <use images/SVD.PNG>
 Package pdftex.def Info: images/SVD.PNG  used on input line 140.
@@ -1541,37 +1541,149 @@ Package pdftex.def Info: images/SVD.PNG  used on input line 140.
 
 contour: Using real outline for `5.3.1\ ' on input line 145.
 contour: Using real outline for `Vorgehen Singulärwertzerlegung' on input line 145.
-<images/pseudoinverse.PNG, id=540, 647.41875pt x 246.9225pt>
+<images/pseudoinverse.PNG, id=595, 647.41875pt x 246.9225pt>
 File: images/pseudoinverse.PNG Graphic file (type png)
 <use images/pseudoinverse.PNG>
 Package pdftex.def Info: images/pseudoinverse.PNG  used on input line 167.
 (pdftex.def)             Requested size: 230.4682pt x 87.89734pt.
-<images/pseudoinverse2.PNG, id=541, 686.565pt x 307.64937pt>
+<images/pseudoinverse2.PNG, id=596, 686.565pt x 307.64937pt>
 File: images/pseudoinverse2.PNG Graphic file (type png)
 <use images/pseudoinverse2.PNG>
 Package pdftex.def Info: images/pseudoinverse2.PNG  used on input line 168.
 (pdftex.def)             Requested size: 230.4682pt x 103.27089pt.
-) [8 <./images/SVD.PNG> <./images/pseudoinverse.PNG> <./images/pseudoinverse2.PNG>] (./main.aux)
+) (./sections/06_Matrizenzerlegung.tex
+contour: Using real outline for `Beispiel: LU-Zerlegung' on input line 32.
+contour: Using real outline for `Beispiel: LR-Zerlegung' on input line 107.
+contour: Using real outline for `Beispiel: Cholesky-Zerlegung' on input line 161.
+contour: Using real outline for `Beispiel: QR-Zerlegung' on input line 220.
+) [8 <./images/SVD.PNG> <./images/pseudoinverse.PNG> <./images/pseudoinverse2.PNG>] (./sections/07_Anhang.tex
+<images/matrixoptik1.PNG, id=622, 894.84312pt x 505.38812pt>
+File: images/matrixoptik1.PNG Graphic file (type png)
+<use images/matrixoptik1.PNG>
+Package pdftex.def Info: images/matrixoptik1.PNG  used on input line 15.
+(pdftex.def)             Requested size: 230.4682pt x 130.16396pt.
+<images/matrixoptik2.PNG, id=623, 927.96687pt x 505.89pt>
+File: images/matrixoptik2.PNG Graphic file (type png)
+<use images/matrixoptik2.PNG>
+Package pdftex.def Info: images/matrixoptik2.PNG  used on input line 16.
+(pdftex.def)             Requested size: 230.4682pt x 125.6385pt.
+<images/matrixoptik3.PNG, id=624, 964.10187pt x 527.47063pt>
+File: images/matrixoptik3.PNG Graphic file (type png)
+<use images/matrixoptik3.PNG>
+Package pdftex.def Info: images/matrixoptik3.PNG  used on input line 17.
+(pdftex.def)             Requested size: 230.4682pt x 126.08847pt.
+<images/matrixoptik4.PNG, id=625, 859.21pt x 476.78125pt>
+File: images/matrixoptik4.PNG Graphic file (type png)
+<use images/matrixoptik4.PNG>
+Package pdftex.def Info: images/matrixoptik4.PNG  used on input line 18.
+(pdftex.def)             Requested size: 230.4682pt x 127.88873pt.
+<images/matrixoptik5.PNG, id=626, 921.94438pt x 509.40312pt>
+File: images/matrixoptik5.PNG Graphic file (type png)
+<use images/matrixoptik5.PNG>
+Package pdftex.def Info: images/matrixoptik5.PNG  used on input line 19.
+(pdftex.def)             Requested size: 230.4682pt x 127.33492pt.
+<images/matrixoptik6.PNG, id=627, 924.45375pt x 519.9425pt>
+File: images/matrixoptik6.PNG Graphic file (type png)
+<use images/matrixoptik6.PNG>
+Package pdftex.def Info: images/matrixoptik6.PNG  used on input line 20.
+(pdftex.def)             Requested size: 230.4682pt x 129.62035pt.
+<images/kettenbruch1.PNG, id=628, 940.51375pt x 462.72874pt>
+File: images/kettenbruch1.PNG Graphic file (type png)
+<use images/kettenbruch1.PNG>
+Package pdftex.def Info: images/kettenbruch1.PNG  used on input line 30.
+(pdftex.def)             Requested size: 230.4682pt x 113.38718pt.
+<images/kettenbruch2.PNG, id=629, 894.34125pt x 529.98pt>
+File: images/kettenbruch2.PNG Graphic file (type png)
+<use images/kettenbruch2.PNG>
+Package pdftex.def Info: images/kettenbruch2.PNG  used on input line 31.
+(pdftex.def)             Requested size: 230.4682pt x 136.57043pt.
+<images/kettenbruch3.PNG, id=630, 957.07562pt x 530.98375pt>
+File: images/kettenbruch3.PNG Graphic file (type png)
+<use images/kettenbruch3.PNG>
+Package pdftex.def Info: images/kettenbruch3.PNG  used on input line 32.
+(pdftex.def)             Requested size: 230.4682pt x 127.86pt.
+<images/kettenbruch4.PNG, id=631, 950.55125pt x 500.87125pt>
+File: images/kettenbruch4.PNG Graphic file (type png)
+<use images/kettenbruch4.PNG>
+Package pdftex.def Info: images/kettenbruch4.PNG  used on input line 33.
+(pdftex.def)             Requested size: 230.4682pt x 121.43437pt.
+<images/kettenbruch5.PNG, id=632, 947.54pt x 571.63562pt>
+File: images/kettenbruch5.PNG Graphic file (type png)
+<use images/kettenbruch5.PNG>
+Package pdftex.def Info: images/kettenbruch5.PNG  used on input line 34.
+(pdftex.def)             Requested size: 230.4682pt x 139.03578pt.
+<images/rekursion1.PNG, id=633, 633.86812pt x 341.77687pt>
+File: images/rekursion1.PNG Graphic file (type png)
+<use images/rekursion1.PNG>
+Package pdftex.def Info: images/rekursion1.PNG  used on input line 45.
+(pdftex.def)             Requested size: 216.06313pt x 116.49985pt.
+<images/kamera1.PNG, id=634, 900.86563pt x 511.41063pt>
+File: images/kamera1.PNG Graphic file (type png)
+<use images/kamera1.PNG>
+Package pdftex.def Info: images/kamera1.PNG  used on input line 55.
+(pdftex.def)             Requested size: 230.4682pt x 130.83327pt.
+<images/kamera2.PNG, id=635, 801.99625pt x 483.8075pt>
+File: images/kamera2.PNG Graphic file (type png)
+<use images/kamera2.PNG>
+Package pdftex.def Info: images/kamera2.PNG  used on input line 56.
+(pdftex.def)             Requested size: 230.4682pt x 139.03082pt.
+<images/kamera3.PNG, id=636, 705.13437pt x 483.30562pt>
+File: images/kamera3.PNG Graphic file (type png)
+<use images/kamera3.PNG>
+Package pdftex.def Info: images/kamera3.PNG  used on input line 57.
+(pdftex.def)             Requested size: 230.4682pt x 157.9648pt.
+<images/kamera4.PNG, id=637, 836.12375pt x 439.6425pt>
+File: images/kamera4.PNG Graphic file (type png)
+<use images/kamera4.PNG>
+Package pdftex.def Info: images/kamera4.PNG  used on input line 58.
+(pdftex.def)             Requested size: 230.4682pt x 121.18045pt.
+ [9 <./images/matrixoptik1.PNG> <./images/matrixoptik2.PNG> <./images/matrixoptik3.PNG> <./images/matrixoptik4.PNG> <./images/matrixoptik5.PNG> <./images/matrixoptik6.PNG> <./images/kettenbruch1.PNG> <./images/kettenbruch2.PNG> <./images/kettenbruch3.PNG> <./images/kettenbruch4.PNG> <./images/kettenbruch5.PNG> <./images/rekursion1.PNG>]
+<images/widerstand1.PNG, id=658, 577.65813pt x 362.85562pt>
+File: images/widerstand1.PNG Graphic file (type png)
+<use images/widerstand1.PNG>
+Package pdftex.def Info: images/widerstand1.PNG  used on input line 68.
+(pdftex.def)             Requested size: 230.4682pt x 144.76317pt.
+<images/widerstand2.PNG, id=659, 854.69313pt x 474.77374pt>
+File: images/widerstand2.PNG Graphic file (type png)
+<use images/widerstand2.PNG>
+Package pdftex.def Info: images/widerstand2.PNG  used on input line 69.
+(pdftex.def)             Requested size: 230.4682pt x 128.01675pt.
+<images/widerstand3.PNG, id=660, 902.87312pt x 469.25313pt>
+File: images/widerstand3.PNG Graphic file (type png)
+<use images/widerstand3.PNG>
+Package pdftex.def Info: images/widerstand3.PNG  used on input line 70.
+(pdftex.def)             Requested size: 230.4682pt x 119.78326pt.
+<images/widerstand4.PNG, id=661, 786.94pt x 482.80376pt>
+File: images/widerstand4.PNG Graphic file (type png)
+<use images/widerstand4.PNG>
+Package pdftex.def Info: images/widerstand4.PNG  used on input line 71.
+(pdftex.def)             Requested size: 230.4682pt x 141.39449pt.
+<images/widerstand5.PNG, id=662, 874.76813pt x 470.75874pt>
+File: images/widerstand5.PNG Graphic file (type png)
+<use images/widerstand5.PNG>
+Package pdftex.def Info: images/widerstand5.PNG  used on input line 72.
+(pdftex.def)             Requested size: 230.4682pt x 124.02496pt.
+) [10 <./images/kamera1.PNG> <./images/kamera2.PNG> <./images/kamera3.PNG> <./images/kamera4.PNG> <./images/widerstand1.PNG> <./images/widerstand2.PNG> <./images/widerstand3.PNG> <./images/widerstand4.PNG> <./images/widerstand5.PNG>] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9C87A7E9E5365CC9CA6494D23B705F41;9641.
+(rerunfilecheck)             Checksum: 7B50AF9816ECB0AE214E1CB6041434EE;11160.
  ) 
 Here is how much of TeX's memory you used:
- 48744 strings out of 474222
- 1130905 string characters out of 5748733
+ 48940 strings out of 474222
+ 1135924 string characters out of 5748733
  2117975 words of memory out of 5000000
- 69907 multiletter control sequences out of 15000+600000
+ 70071 multiletter control sequences out of 15000+600000
  628629 words of font info for 168 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  88i,21n,96p,792b,1467s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txexa.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (8 pages, 1405001 bytes).
+Output written on main.pdf (10 pages, 2939225 bytes).
 PDF statistics:
- 669 PDF objects out of 1000 (max. 8388607)
- 575 compressed objects within 6 object streams
- 241 named destinations out of 1000 (max. 500000)
- 547 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 793 PDF objects out of 1000 (max. 8388607)
+ 654 compressed objects within 7 object streams
+ 267 named destinations out of 1000 (max. 500000)
+ 740 words of extra memory for PDF output out of 10000 (max. 10000000)
 
